@@ -1,9 +1,32 @@
 .card {
     background-image: url("\images\background_map.jpg");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.left-side-title {
+    writing-mode: vertical-lr;
+    float: left;
+    position: relative;
+    left: 40.4rem;
+    top: 9rem;
+    z-index: 1;
+}
+.right-side-title{
+    writing-mode: vertical-lr;
+    float: left;
+    position: relative;
+    left: 66.7rem;
+    top: 9rem;
+    z-index: 1;
 }
 
 .card-number {
     align-self: center;
+    height: 3rem;
+    width: 3rem;
+    background-color: pink;
 }
 
 .story-text {

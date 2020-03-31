@@ -28,14 +28,14 @@ body {
 }
 
 .card-title {
+  border: .2rem solid #252525;
+  border-radius: .2rem;
   font-size: 1.5rem;
   font-weight: bolder;
   background-color: rgba(241, 241, 241, 0.5);
   margin-left: 1.4rem;
   margin-right: 1.4rem;
   margin-bottom: 0.1rem;
-  border: 0.2rem solid #252525;
-  border-radius: 0.2rem;
 }
 
 .card-number {
@@ -61,15 +61,15 @@ body {
 }
 
 .card-img-top {
-  border: 0.2rem solid #252525;
-  border-radius: 0.2rem solid #252525;
+  border: .2rem solid #252525;
+  border-radius: .2rem;
   z-index: 1;
 }
 
 .card-body {
+  border: .2rem solid #252525;
+  border-radius: .2rem;
   background-color: rgba(241, 241, 241, 0.5);
-  border: 0.2rem solid #252525;
-  border-radius: 0.2rem;
   margin-top: .2rem;
 }
 

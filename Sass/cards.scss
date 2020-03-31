@@ -1,6 +1,20 @@
 
-$borderval: .2rem solid #252525;
-$borderrads: .2rem;
+@mixin border {
+    border: .2rem solid #252525;
+    border-radius: .2rem;
+    
+}
+
+@mixin backgroundvalues {
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 2rem;
+    padding-top: 0.6rem;
+    
+}
+
 $bckgrndcolor:  rgba(241, 241, 241, 0.5);
 body {
     font-family: 'PT Sans Caption', sans-serif;
@@ -12,36 +26,23 @@ body {
 
     &-mission {
         background-image: url("/images/background_map.png");
-        border-radius: 1rem;
-
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-bottom: 2rem;
-        padding-top: 0.6rem;
-
+        @include backgroundvalues();
     }
 
     &-reward {
         background-image: url("/images/background_rewards.png");
-        border-radius: 1rem;
-
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-bottom: 2rem;
-        padding-top: 0.6rem;
+        @include backgroundvalues();
     }
 
     &-title {
+        @include border();
         font-size: 1.5rem;
         font-weight: bolder;
         background-color: $bckgrndcolor;
         margin-left: 1.4rem;
         margin-right: 1.4rem;
         margin-bottom: 0.1rem;
-        border: $borderval;
-        border-radius: $borderrads;
+     
     }
 
     &-number {
@@ -62,15 +63,13 @@ body {
         justify-content: center;
 
         &-top {
-            border: $borderval;
-            border-radius: $borderval;
+            @include border();
             z-index: 1;
         }
     }
     &-body {
+        @include border();
         background-color: $bckgrndcolor;
-        border: $borderval;
-        border-radius: $borderrads;
         margin-top: .2rem;
     }
 }

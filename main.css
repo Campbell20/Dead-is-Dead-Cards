@@ -1,5 +1,5 @@
 .card {
-    background-image: url("\images\background_map.jpg");
+    background-image: url("images\background_map.jpg");
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover; 

@@ -1,0 +1,57 @@
+body {
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.card {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("images/background_map.jpg");
+
+    &-mission {
+        background-image:
+            linear-gradient(rgba(200, 175, 0, 0.5),
+                rgba(200, 175, 0, 0.5)),
+            url("images/background_map.jpg");
+
+    }
+
+    &-reward {
+        background-image:
+            linear-gradient(rgba(62, 146, 0, 0.5),
+                rgba(62, 146, 0, 0.5)),
+            url("/images/background_map.jpg");
+    }
+
+    &-number {
+        text-align: center;
+        height: 2.5rem;
+        width: 2.5rem;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        border: .5rem solid #252525;
+    }
+}
+
+.image-border {
+    border: 1rem solid #252525;
+    border-radius: 2rem;
+}
+
+.card-img-top {
+    border-radius: 1rem;
+}
+
+.text {
+    &-story {
+        font-size: .9rem;
+    }
+
+    &-mission {
+        font-size: 1.2rem;
+    }
+
+    &-notes {
+        font-size: .7rem;
+    }
+}

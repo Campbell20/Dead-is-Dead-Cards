@@ -1,3 +1,7 @@
+
+body {
+    font-family: 'PT Sans Caption', sans-serif;
+}
 .card {
    margin: 0 1rem;
 }
@@ -40,7 +44,7 @@
 
 .image-border {
     border: 1rem solid #252525;
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 
 .card-img-top{

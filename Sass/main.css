@@ -1,0 +1,55 @@
+body {
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+.card {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 2rem;
+}
+
+.card-mission {
+  background-image: url("/images/background_map.png");
+}
+
+.card-reward {
+  background-image: url("/images/background_rewards.png");
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.card-number {
+  text-align: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  border: .5rem solid #252525;
+}
+
+.card-img-border {
+  border: .5rem solid #252525;
+  border-radius: 1.5rem;
+}
+
+.card-img-top {
+  border-radius: 1rem;
+}
+
+.text-story {
+  font-size: .9rem;
+}
+
+.text-mission {
+  font-size: 1.2rem;
+}
+
+.text-note {
+  font-size: .7rem;
+}
+/*# sourceMappingURL=main.css.map */

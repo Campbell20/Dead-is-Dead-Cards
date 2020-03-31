@@ -1,45 +1,78 @@
+
+$borderval: .2rem solid #252525;
+$borderrads: .2rem;
+$bckgrndcolor:  rgba(241, 241, 241, 0.5);
 body {
     font-family: 'PT Sans Caption', sans-serif;
 }
 
 .card {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url("images/background_map.jpg");
+    border: 1rem solid #252525;
+    border-radius: 2rem;
 
     &-mission {
-        background-image:
-            linear-gradient(rgba(200, 175, 0, 0.5),
-                rgba(200, 175, 0, 0.5)),
-            url("images/background_map.jpg");
+        background-image: url("/images/background_map.png");
+        border-radius: 1rem;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 2rem;
+        padding-top: 0.6rem;
 
     }
 
     &-reward {
-        background-image:
-            linear-gradient(rgba(62, 146, 0, 0.5),
-                rgba(62, 146, 0, 0.5)),
-            url("/images/background_map.jpg");
+        background-image: url("/images/background_rewards.png");
+        border-radius: 1rem;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 2rem;
+        padding-top: 0.6rem;
+    }
+
+    &-title {
+        font-size: 1.5rem;
+        font-weight: bolder;
+        background-color: $bckgrndcolor;
+        margin-left: 1.4rem;
+        margin-right: 1.4rem;
+        margin-bottom: 0.1rem;
+        border: $borderval;
+        border-radius: $borderrads;
     }
 
     &-number {
         text-align: center;
-        height: 2.5rem;
-        width: 2.5rem;
-        background-color: #bbb;
+        background-color: #252525;
         border-radius: 50%;
-        display: inline-block;
-        border: .5rem solid #252525;
+        width: 80%;
+        color: white;
+
+        &-position {
+            margin-left: -1.8rem;
+            margin-top: -0.9rem;
+        }
     }
-}
 
-.image-border {
-    border: 1rem solid #252525;
-    border-radius: 2rem;
-}
+    &-img {
+        display: flex;
+        justify-content: center;
 
-.card-img-top {
-    border-radius: 1rem;
+        &-top {
+            border: $borderval;
+            border-radius: $borderval;
+            z-index: 1;
+        }
+    }
+    &-body {
+        background-color: $bckgrndcolor;
+        border: $borderval;
+        border-radius: $borderrads;
+        margin-top: .2rem;
+    }
 }
 
 .text {
@@ -51,7 +84,7 @@ body {
         font-size: 1.2rem;
     }
 
-    &-notes {
+    &-note {
         font-size: .7rem;
     }
 }

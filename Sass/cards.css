@@ -3,38 +3,74 @@ body {
 }
 
 .card {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("images/background_map.jpg");
-}
-
-.card-mission {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(200, 175, 0, 0.5)), to(rgba(200, 175, 0, 0.5))), url("images/background_map.jpg");
-  background-image: linear-gradient(rgba(200, 175, 0, 0.5), rgba(200, 175, 0, 0.5)), url("images/background_map.jpg");
-}
-
-.card-reward {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(62, 146, 0, 0.5)), to(rgba(62, 146, 0, 0.5))), url("/images/background_map.jpg");
-  background-image: linear-gradient(rgba(62, 146, 0, 0.5), rgba(62, 146, 0, 0.5)), url("/images/background_map.jpg");
-}
-
-.card-number {
-  text-align: center;
-  height: 2.5rem;
-  width: 2.5rem;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  border: .5rem solid #252525;
-}
-
-.image-border {
   border: 1rem solid #252525;
   border-radius: 2rem;
 }
 
-.card-img-top {
+.card-mission {
+  background-image: url("/images/background_map.png");
   border-radius: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 2rem;
+  padding-top: 0.6rem;
+}
+
+.card-reward {
+  background-image: url("/images/background_rewards.png");
+  border-radius: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 2rem;
+  padding-top: 0.6rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  background-color: rgba(241, 241, 241, 0.5);
+  margin-left: 1.4rem;
+  margin-right: 1.4rem;
+  margin-bottom: 0.1rem;
+  border: 0.2rem solid #252525;
+  border-radius: 0.2rem;
+}
+
+.card-number {
+  text-align: center;
+  background-color: #252525;
+  border-radius: 50%;
+  width: 80%;
+  color: white;
+}
+
+.card-number-position {
+  margin-left: -1.8rem;
+  margin-top: -0.9rem;
+}
+
+.card-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-img-top {
+  border: 0.2rem solid #252525;
+  border-radius: 0.2rem solid #252525;
+  z-index: 1;
+}
+
+.card-body {
+  background-color: rgba(241, 241, 241, 0.5);
+  border: 0.2rem solid #252525;
+  border-radius: 0.2rem;
+  margin-top: .2rem;
 }
 
 .text-story {
@@ -45,7 +81,7 @@ body {
   font-size: 1.2rem;
 }
 
-.text-notes {
+.text-note {
   font-size: .7rem;
 }
 /*# sourceMappingURL=cards.css.map */

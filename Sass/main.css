@@ -3,42 +3,74 @@ body {
 }
 
 .card {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 2rem;
+  border: 1rem solid #252525;
+  border-radius: 2rem;
 }
 
 .card-mission {
   background-image: url("/images/background_map.png");
+  border-radius: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 2rem;
+  padding-top: 0.6rem;
 }
 
 .card-reward {
   background-image: url("/images/background_rewards.png");
+  border-radius: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 2rem;
+  padding-top: 0.6rem;
 }
 
 .card-title {
+  border: .2rem solid #252525;
+  border-radius: .2rem;
   font-size: 1.5rem;
   font-weight: bolder;
+  background-color: rgba(241, 241, 241, 0.5);
+  margin-left: 1.4rem;
+  margin-right: 1.4rem;
+  margin-bottom: 0.1rem;
 }
 
 .card-number {
   text-align: center;
-  height: 2.5rem;
-  width: 2.5rem;
-  background-color: #bbb;
+  background-color: #252525;
   border-radius: 50%;
-  display: inline-block;
-  border: .5rem solid #252525;
+  width: 80%;
+  color: white;
 }
 
-.card-img-border {
-  border: .5rem solid #252525;
-  border-radius: 1.5rem;
+.card-number-position {
+  margin-left: -1.8rem;
+  margin-top: -0.9rem;
+}
+
+.card-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .card-img-top {
-  border-radius: 1rem;
+  border: .2rem solid #252525;
+  border-radius: .2rem;
+  z-index: 1;
+}
+
+.card-body {
+  border: .2rem solid #252525;
+  border-radius: .2rem;
+  background-color: rgba(241, 241, 241, 0.5);
+  margin-top: .2rem;
 }
 
 .text-story {

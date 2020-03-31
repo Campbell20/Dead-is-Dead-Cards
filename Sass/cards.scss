@@ -1,4 +1,4 @@
-
+//mixins!
 @mixin border {
     border: .2rem solid #252525;
     border-radius: .2rem;
@@ -16,14 +16,17 @@
 }
 
 $bckgrndcolor:  rgba(241, 241, 241, 0.5);
+
 body {
     font-family: 'PT Sans Caption', sans-serif;
 }
 
+//card styling
 .card {
     border: 1rem solid #252525;
     border-radius: 2rem;
 
+    //add more card types here
     &-mission {
         background-image: url("/images/background_map.png");
         @include backgroundvalues();
@@ -49,7 +52,6 @@ body {
         text-align: center;
         background-color: #252525;
         border-radius: 50%;
-        width: 80%;
         color: white;
 
         &-position {

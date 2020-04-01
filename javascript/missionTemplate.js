@@ -22,13 +22,13 @@ $(document).ready(function () {
           document.body.appendChild(a);
 
           //add in the data to each id
-          document.getElementById("mission-title").innerHTML = json[i].missionInfo.title;
+          document.getElementById("mission-title").innerHTML = json[i].title;
           document.getElementById("mission-id").innerHTML = i;
-          document.getElementById("mission-story").innerHTML = json[i].missionInfo.story;
-          document.getElementById("mission-objective").innerHTML = json[i].missionInfo.objective;
-          document.getElementById("mission-note").innerHTML = json[i].missionInfo.note;
-          document.getElementById("mission-reward").innerHTML = json[i].missionInfo.reward;
-          document.getElementById("mission-img").src = json[i].missionInfo.image;
+          document.getElementById("mission-story").innerHTML = json[i].story;
+          document.getElementById("mission-objective").innerHTML = json[i].objective;
+          document.getElementById("mission-note").innerHTML = json[i].note;
+          document.getElementById("mission-reward").innerHTML = json[i].reward;
+          document.getElementById("mission-img").src = json[i].image;
       }
 
   });

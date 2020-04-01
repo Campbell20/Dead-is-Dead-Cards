@@ -1,23 +1,34 @@
 [
     {
-        "missionInfo": {
-            "title": "Jabo Enemy Artillery Position",
-            "image": "images\\missions\\Jabo_Enemy_Artillery_Position.png",
-            "story": "Enemy artillery emplacements are hammering our advancing troops and destroying our armoured vehicles that attempt to outflank their position.",
-            "objective": "Attack and completely destroy an enemy artillery position using <em>ONLY</em> a Jabo loadout and return to base with minimumal damage to your plane.",
-            "note": "Players must choose the target that is the farthest from the front lines to recieve the reward from this mission.",
-            "reward": "If mission is completed, then all <em>alive</em> pilots on the mission recieve a card from the level 1 deck on 6 or better (from D20 roll). Otherwise, all alive pilots recieve a card from the level 1 deck on a 16 or better (from D20 roll)."
-        }
+        "title": "Jabo Enemy Artillery Position",
+        "image": "images\\missions\\Jabo_Enemy_Artillery_Position.png",
+        "story": "Enemy artillery emplacements are hammering our advancing troops and destroying our armoured vehicles that attempt to outflank their position.",
+        "objective": "Attack and completely destroy an enemy artillery position using <em>ONLY</em> a Jabo loadout and return to base with minimumal damage to your plane.",
+        "note": "Players must choose the target that is the farthest from the front lines to recieve the reward from this mission.",
+        "reward": "If mission is completed, then all <em>alive</em> pilots on the mission recieve a card from the level 1 deck on 6 or better (from D20 roll). Otherwise, all alive pilots recieve a card from the level 1 deck on a 16 or better (from D20 roll)."
     },
     {
-        "missionInfo": {
-            "title": "Free Hunt",
-            "image": "images\\missions\\free_hunt.png",
-            "story": "Current Intel reported enemy units operating near the front lines. The Oberkommando is concerned about potential attempts to recon and control the area by the enemy.",
-            "objective": "Hunt enemy aircraft in a tactically important sector (must be owned by the enemy) for at least 30 minutes of in game time and return to the base with minimual damage.",
-            "note": "Mission must be at least 30 km behind enemy lines!",
-            "reward": "If less than 3 enemy aircarfts are destroyed (minimum 1), every <em>alive</em> pilot participating gets a level 1 reward card on a 16 or better. If more than 3 enemy are destroyed; reward cards are given on 10 or better."
-        }
+        "title": "Free Hunt",
+        "image": "images\\missions\\free_hunt.png",
+        "story": "Current Intel reported enemy units operating near the front lines. The Oberkommando is concerned about potential attempts to recon and control the area by the enemy.",
+        "objective": "Hunt enemy aircraft in a tactically important sector (must be owned by the enemy) for at least 30 minutes of in game time and return to the base with minimual damage.",
+        "note": "Mission must be at least 30 km behind enemy lines!",
+        "reward": "If less than 3 enemy aircarfts are destroyed (minimum 1), every <em>alive</em> pilot participating gets a level 1 reward card on a 16 or better. If more than 3 enemy are destroyed; reward cards are given on 10 or better."
+    },
+    {
+        "title": "Jabo Enemy Artillery Position",
+        "image": "images\\missions\\Jabo_Enemy_Artillery_Position.png",
+        "story": "Enemy artillery emplacements are hammering our advancing troops and destroying our armoured vehicles that attempt to outflank their position.",
+        "objective": "Attack and completely destroy an enemy artillery position using <em>ONLY</em> a Jabo loadout and return to base with minimumal damage to your plane.",
+        "note": "Players must choose the target that is the farthest from the front lines to recieve the reward from this mission.",
+        "reward": "If mission is completed, then all <em>alive</em> pilots on the mission recieve a card from the level 1 deck on 6 or better (from D20 roll). Otherwise, all alive pilots recieve a card from the level 1 deck on a 16 or better (from D20 roll)."
+    },
+    {
+        "title": "Free Hunt",
+        "image": "images\\missions\\free_hunt.png",
+        "story": "Current Intel reported enemy units operating near the front lines. The Oberkommando is concerned about potential attempts to recon and control the area by the enemy.",
+        "objective": "Hunt enemy aircraft in a tactically important sector (must be owned by the enemy) for at least 30 minutes of in game time and return to the base with minimual damage.",
+        "note": "Mission must be at least 30 km behind enemy lines!",
+        "reward": "If less than 3 enemy aircarfts are destroyed (minimum 1), every <em>alive</em> pilot participating gets a level 1 reward card on a 16 or better. If more than 3 enemy are destroyed; reward cards are given on 10 or better."
     }
-   
 ]

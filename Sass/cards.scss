@@ -32,9 +32,16 @@ body {
         @include backgroundvalues();
     }
 
-    &-reward {
-        background-image: url("../images/background_rewards.png");
-        @include backgroundvalues();
+    &-reward{
+        &-axis {
+            background-image: url("../images/background_rewards.png");
+            @include backgroundvalues();
+        }
+        &-allied {
+            background-image: url("../images/background_rewards.png");
+            @include backgroundvalues();
+        }
+
     }
 
     &-title {

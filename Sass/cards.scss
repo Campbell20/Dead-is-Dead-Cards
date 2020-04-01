@@ -28,12 +28,12 @@ body {
 
     //add more card types here
     &-mission {
-        background-image: url("/images/background_map.png");
+        background-image: url("../images/background_map.png");
         @include backgroundvalues();
     }
 
     &-reward {
-        background-image: url("/images/background_rewards.png");
+        background-image: url("../images/background_rewards.png");
         @include backgroundvalues();
     }
 

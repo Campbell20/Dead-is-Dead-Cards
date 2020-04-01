@@ -1,4 +1,12 @@
 body {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.felt {
+  background-image: url("../images/backgrounds/medals_blue_felt.png");
+}
+
+body {
   font-family: 'PT Sans Caption', sans-serif;
 }
 

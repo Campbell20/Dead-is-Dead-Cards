@@ -2,6 +2,7 @@
     {
       "title": "Jabo Enemy Artillery Position",
       "image": "images\\missions\\Jabo_Enemy_Artillery_Position.png",
+      "type": "Fighter",
       "story": "Enemy artillery emplacements are hammering our advancing troops and destroying our armoured vehicles that attempt to outflank their position.",
       "objective": "Attack and completely destroy an enemy artillery position using <em>ONLY</em> a Jabo loadout and return to base with minimumal damage to your plane.",
       "note": "Players must choose the target that is the farthest from the front lines to recieve the reward from this mission.",
@@ -10,6 +11,7 @@
     {
       "title": "Free Hunt",
       "image": "images\\missions\\free_hunt.png",
+      "type": "Fighter",
       "story": "Current Intel reported enemy units operating near the front lines. The Oberkommando is concerned about potential attempts to recon and control the area by the enemy.",
       "objective": "Hunt enemy aircraft in a tactically important sector (must be owned by the enemy) for at least 30 minutes of in game time and return to the base with minimual damage.",
       "note": "Mission must be at least 30 km behind enemy lines!",
@@ -18,6 +20,7 @@
     {
       "title": "Area Patrol",
       "image": "images\\missions\\area_patrol.png",
+      "type": "Fighter",
       "story": "Recent enemy activity near the front lines are very concerning and they are preventing any attempt of our troops to advance. We must control the air space as soon as possible!",
       "objective": "Patrol an area of, at least, 30km2 that includes an active enemy airfield.",
       "note": "Mission must be at least 60km behind enemy lines!",
@@ -26,6 +29,7 @@
     {
       "title": "Ground Troop Cover",
       "image": "images\\missions\\ground_troop_cover.png",
+      "type": "Fighter",
       "story": "The Oberkommando is requesting cover for our ground troops that are pushing for a major counter offensive near the front. Protecting them is crucial in the success of the operation!",
       "objective": "Fly a defensive mission over friendly ground troops that are near the front line for at least 45 minutes of in game time and return with minumual damage.",
       "note": "Unit has to protect friendly units that are closests to the front lines or behind enemy lines.",
@@ -34,6 +38,7 @@
     {
       "title": "Intercept Bombers",
       "image": "images\\missions\\intercept_bombers.png",
+      "type": "Fighter",
       "story": "Enemy bombers have been pounding our positions unhindered. The Oberkommando is requesting your unit to intercept them.",
       "objective": "Intercept enemy bombers with a bomber-hunting loadout.",
       "note": "Must score at least one bomber kill for this mission to be counted as completed.",

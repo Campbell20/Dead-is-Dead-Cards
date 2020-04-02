@@ -26,6 +26,17 @@ body {
     border: 1rem solid #252525;
     border-radius: 2rem;
 
+    &-type {
+        background-color: #252525;
+        color: white;
+        border-radius: .25rem;
+        position: relative;
+        top: -2.3rem;
+        z-index: 1;
+        font-size: 1.2rem;
+        align-items: center;
+    }
+
     //add more card types here
     &-mission {
         background-image: url("../images/background_map.png");
@@ -85,6 +96,7 @@ body {
 
 .text {
     &-story {
+        margin-top: -1.8rem;
         font-size: .9rem;
     }
 

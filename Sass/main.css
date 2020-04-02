@@ -15,6 +15,19 @@ body {
   border-radius: 2rem;
 }
 
+.card-type {
+  background-color: #252525;
+  color: white;
+  border-radius: .25rem;
+  position: relative;
+  top: -2.3rem;
+  z-index: 1;
+  font-size: 1.2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .card-mission {
   background-image: url("../images/background_map.png");
   border-radius: 1rem;
@@ -91,6 +104,7 @@ body {
 }
 
 .text-story {
+  margin-top: -1.8rem;
   font-size: .9rem;
 }
 

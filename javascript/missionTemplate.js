@@ -10,6 +10,7 @@ $(document).ready(function () {
           //go and create new ids
           $(".card-title").attr("id", "mission-title" + i);
           $(".card-number").attr("id", "mission-id" + i);
+          $(".card-type").attr("id", "mission-type" + i);
           $(".mission-span-story").attr("id", "mission-story" + i);
           $(".mission-span-obj").attr("id", "mission-objective" + i);
           $(".mission-span-note").attr("id", "mission-note" + i);
@@ -24,6 +25,7 @@ $(document).ready(function () {
           //add in the data to each id
           document.getElementById("mission-title").innerHTML = json[i].title;
           document.getElementById("mission-id").innerHTML = i;
+          document.getElementById("mission-type").innerHTML = json[i].type;
           document.getElementById("mission-story").innerHTML = json[i].story;
           document.getElementById("mission-objective").innerHTML = json[i].objective;
           document.getElementById("mission-note").innerHTML = json[i].note;

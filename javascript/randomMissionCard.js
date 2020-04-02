@@ -9,6 +9,7 @@ $(document).ready(function () {
    
     dieRoll = getRandomInt(0, 20);
     document.getElementById("dieroll").innerHTML = dieRoll;
+    
 
     $.getJSON('missionCardsData.json', function (json) {
         console.log(json);
@@ -27,6 +28,7 @@ $(document).ready(function () {
         //add in the data to each id
         document.getElementById("mission-title").innerHTML = json[i].title;
         document.getElementById("mission-id").innerHTML = i;
+        document.getElementById("mission-type").innerHTML = json[i].type;
         document.getElementById("mission-story").innerHTML = json[i].story;
         document.getElementById("mission-objective").innerHTML = json[i].objective;
         document.getElementById("mission-note").innerHTML = json[i].note;

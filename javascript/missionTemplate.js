@@ -62,6 +62,9 @@ $(document).ready(function () {
   }
 
   function createIds() {
+    $(".nation-img-top").each(function (i) {
+      $(this).attr('id', "nation-img" + (i + 1 - 1));
+    });
     $(".card-title").each(function (i) {
       $(this).attr('id', "mission-title" + (i + 1 - 1));
     });
@@ -90,6 +93,7 @@ $(document).ready(function () {
 
   function addJsonData(json) {
     for (i = 0; i < json.length; i++) {
+      document.getElementById("nation-img" + i).innerHTML = json[i].nation;
       document.getElementById("mission-title" + i).innerHTML = json[i].title;
       document.getElementById("mission-id" + i).innerHTML = i;
       document.getElementById("mission-type" + i).innerHTML = json[i].type;

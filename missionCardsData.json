@@ -1,47 +1,102 @@
 [
-    {
-      "title": "Jabo Enemy Artillery Position",
-      "image": "images\\missions\\Jabo_Enemy_Artillery_Position.png",
-      "type": "Fighter",
-      "story": "Enemy artillery emplacements are hammering our advancing troops and destroying our armoured vehicles that attempt to outflank their position.",
-      "objective": "Attack and completely destroy an enemy artillery position using <em>ONLY</em> a Jabo loadout and return to base with minimumal damage to your plane.",
-      "note": "Players must choose the target that is the farthest from the front lines to recieve the reward from this mission.",
-      "reward": "If mission is completed, then all <em>alive</em> pilots on the mission recieve a card from the level 1 deck on 6 or better (from D20 roll). Otherwise, all alive pilots recieve a card from the level 1 deck on a 16 or better (from D20 roll)."
-    },
-    {
-      "title": "Free Hunt",
-      "image": "images\\missions\\free_hunt.png",
-      "type": "Fighter",
-      "story": "Current Intel reported enemy units operating near the front lines. The Oberkommando is concerned about potential attempts to recon and control the area by the enemy.",
-      "objective": "Hunt enemy aircraft in a tactically important sector (must be owned by the enemy) for at least 30 minutes of in game time and return to the base with minimual damage.",
-      "note": "Mission must be at least 30 km behind enemy lines!",
-      "reward": "If less than 3 enemy aircarfts are destroyed (minimum 1), every <em>alive</em> pilot participating gets a level 1 reward card on a 16 or better. If more than 3 enemy are destroyed; reward cards are given on 10 or better."
-    },
-    {
-      "title": "Area Patrol",
-      "image": "images\\missions\\area_patrol.png",
-      "type": "Fighter",
-      "story": "Recent enemy activity near the front lines are very concerning and they are preventing any attempt of our troops to advance. We must control the air space as soon as possible!",
-      "objective": "Patrol an area of, at least, 30km2 that includes an active enemy airfield.",
-      "note": "Mission must be at least 60km behind enemy lines!",
-      "reward": "If less than 3 enemy aircarfts are destroyed (minimum 1), every <em>alive</em> pilot participating gets a level 1 reward card on a 16 or better. If more than 3 enemy are destroyed; reward cards are given on 10 or better."
-    },
-    {
-      "title": "Ground Troop Cover",
-      "image": "images\\missions\\ground_troop_cover.png",
-      "type": "Fighter",
-      "story": "The Oberkommando is requesting cover for our ground troops that are pushing for a major counter offensive near the front. Protecting them is crucial in the success of the operation!",
-      "objective": "Fly a defensive mission over friendly ground troops that are near the front line for at least 45 minutes of in game time and return with minumual damage.",
-      "note": "Unit has to protect friendly units that are closests to the front lines or behind enemy lines.",
-      "reward": "Every pilot participating in the sortie gets a single level 1 reward card on a 12 or better. If enemy aircrafts that attack the protected target are destroyed, level 1 reward card is given on 8 or better."
-    },
-    {
-      "title": "Intercept Bombers",
-      "image": "images\\missions\\intercept_bombers.png",
-      "type": "Fighter",
-      "story": "Enemy bombers have been pounding our positions unhindered. The Oberkommando is requesting your unit to intercept them.",
-      "objective": "Intercept enemy bombers with a bomber-hunting loadout.",
-      "note": "Must score at least one bomber kill for this mission to be counted as completed.",
-      "reward": "If less than 3 enemy bombers are destroyed (minimum 1), every pilot participating in the mission will recieve a level 1 reward card on 8 or better. If 3 or more are destroyed, reward cards are given on 6 or better."
-    }
-  ]
+  {
+    "nation": "images\\nations\\germany.png",
+    "title": "Jabo Enemy Artillery Position",
+    "image": "images\\missions\\Jabo_Enemy_Artillery_Position.png",
+    "type": "Fighter",
+    "story": "Enemy artillery emplacements are hammering our advancing troops and destroying our armoured vehicles that attempt to outflank their position.",
+    "objective": "Attack and completely destroy an enemy artillery position using <em>ONLY</em> a Jabo loadout and return to base with minimumal damage to your plane.",
+    "note": "Players must choose the target that is the farthest from the front lines to recieve the reward from this mission.",
+    "reward": "If mission is completed, then all <em>alive</em> pilots on the mission recieve a card from the level 1 deck on 6 or better (from D20 roll). Otherwise, all alive pilots recieve a card from the level 1 deck on a 16 or better (from D20 roll)."
+  },
+  {
+    "nation": "images\\nations\\germany.png",
+    "title": "Free Hunt",
+    "image": "images\\missions\\LW_Free_Hunt.png",
+    "type": "Fighter",
+    "story": "Current Intel reported enemy units operating near the front lines. The Oberkommando is concerned about potential attempts to recon and control the area by the enemy.",
+    "objective": "Hunt enemy aircraft in a tactically important sector (must be owned by the enemy) for at least 30 minutes of in game time and return to the base with minimual damage.",
+    "note": "Mission must be at least 30 km behind enemy lines!",
+    "reward": "If less than 3 enemy aircarfts are destroyed (minimum 1), every <em>alive</em> pilot participating gets a level 1 reward card on a 16 or better. If more than 3 enemy are destroyed; reward cards are given on 10 or better."
+  },
+  {
+    "nation": "images\\nations\\germany.png",
+    "title": "Area Patrol",
+    "image": "images\\missions\\LW_Area_Patrol.png",
+    "type": "Fighter",
+    "story": "Recent enemy activity near the front lines are very concerning and they are preventing any attempt of our troops to advance. We must control the air space as soon as possible!",
+    "objective": "Patrol an area of, at least, 30km2 that includes an active enemy airfield.",
+    "note": "Mission must be at least 60km behind enemy lines!",
+    "reward": "If less than 3 enemy aircarfts are destroyed (minimum 1), every <em>alive</em> pilot participating gets a level 1 reward card on a 16 or better. If more than 3 enemy are destroyed; reward cards are given on 10 or better."
+  },
+  {
+    "nation": "images\\nations\\germany.png",
+    "title": "Ground Troop Cover",
+    "image": "images\\missions\\LW_Ground_Troop_Cover.png",
+    "type": "Fighter",
+    "story": "The Oberkommando is requesting cover for our ground troops that are pushing for a major counter offensive near the front. Protecting them is crucial in the success of the operation!",
+    "objective": "Fly a defensive mission over friendly ground troops that are near the front line for at least 45 minutes of in game time and return with minumual damage.",
+    "note": "Unit has to protect friendly units that are closests to the front lines or behind enemy lines.",
+    "reward": "Every pilot participating in the sortie gets a single level 1 reward card on a 12 or better. If enemy aircrafts that attack the protected target are destroyed, level 1 reward card is given on 8 or better."
+  },
+  {
+    "nation": "images\\nations\\germany.png",
+    "title": "Intercept Bombers",
+    "image": "images\\missions\\intercept_bombers.png",
+    "type": "Fighter",
+    "story": "Enemy bombers have been pounding our positions unhindered. The Oberkommando is requesting your unit to intercept them.",
+    "objective": "Intercept enemy bombers with a bomber-hunting loadout.",
+    "note": "Must score at least one bomber kill for this mission to be counted as completed.",
+    "reward": "If less than 3 enemy bombers are destroyed (minimum 1), every pilot participating in the mission will recieve a level 1 reward card on 8 or better. If 3 or more are destroyed, reward cards are given on 6 or better."
+  },
+  {
+    "nation": "images\\nations\\germany.png",
+    "title": "Relocate",
+    "image": "images\\missions\\LW_Relocate.png",
+    "type": "Fighter",
+    "story": "Our current base of operation has been struggling with the frequent bombardments and lack of supplies. We have finally been ordered to transfer to another base. Ju-52s are transporting most of our supplies but whatever is left will remain here. Pack your bags guys, we are moving out!",
+    "objective": "Transfer your flight to another friendly airfield in the map and conduct 02 recce flights of, ate least, 30 min from your new airbase to the front lines.",
+    "note": "All pilots within the unit must RTB in order to be counted as completed. Failure to complete this mission causes all pilots to receive the \"Short Supply\" negative card.",
+    "reward": "Every pilot participating in the sortie gets a single bonus card on a 15 or better. If enemy aircraft are destroyed during the misison, reward card is given on 10 or better."
+  },
+  {
+    "nation": "images\\nations\\germany.png",
+    "title": "Frontline Support",
+    "image": "images\\missions\\LW_Frontline_Support.png",
+    "type": "Ground Attackers",
+    "story": "Our troops are struggling to advance in the front due to the massive amount of enemies and supporting aircraft. We have been ordered to assist our ground attacking units near at the frontline.",
+    "objective": "Ground attackers must engage enemy troops located at the front-line. Supporting fighters,if any, will support the ground attackers in the Jabo role and concentrate their fire against anti-aircraft guns and possibly engage nearby enemy fighters at the closest target to the front.",
+    "note": "Target must be the closest available target to the frontlines and completly destroyed with, at least, 50% of the pilots returning to base in order to count as completed.",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If ground kills also include tanks (atleast 2), reward card is given on 10 or better."
+  },
+  {
+    "nation": "images\\nations\\germany.png",
+    "title": "Attack Enemy Ships",
+    "image": "images\\missions\\LW_Attack_Enemy_Ships.png",
+    "type": "Ground Attackers",
+    "story": "Enemy ships transporting supplies and troops have been spotted by our recon flights earlier today. We have been tasked with destroying these vital targets in order to support the Kriegsmarine and decrease the enemy's supply storages.",
+    "objective": "Ground attackers must engage and completely destroy enemy ship(s)/harbor. Succeed if the target is completly destroyed AND all pilots RTB.",
+    "note": "If this type of target is not available in the mission, select one according to the die roll (die roll of 1-10: Target must be the closest one to friendly lines / die roll of 11-20: Target must be the furthest one behind enemy lines).",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
+  },
+  {
+    "nation": "images\\nations\\germany.png",
+    "title": "Attack Enemy Airfield",
+    "image": "images\\missions\\LW_Attack_Enemy_Airfield.png",
+    "type": "Ground Attackers",
+    "story": "We have a very dangerous task today boys! The Oberkommando is requesting an aerial attack to one of the enemy’s airfield. Success in this mission is critical in allowing us to gain back the initiative in the air and, ultimately, in this war!",
+    "objective": "Ground attackers must engage enemy airfield strucutures like hangars, fuel and ammunition storages, as well as stationary enemy planes. Supporting fighters,if any, will support the ground attackers in the Jabo role and concentrate their fire against anti-aircraft guns and possibly engage nearby enemy fighters. Die roll determines target location (die roll 1-10: target must be the closest one to the front-line / die roll 11-20: Target must be the furthest one behind enemy lines).",
+    "note": "If this type of target is not available in the mission, select one according to the die roll (die roll of 1-10: Target must be the closest one to friendly lines / die roll of 11-20: Target must be the furthest one behind enemy lines).",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
+  },
+  {
+    "nation": "images\\nations\\germany.png",
+    "title": "Attack Enemy Train",
+    "image": "images\\missions\\LW_Attack_Enemy_Train.png",
+    "type": "Ground Attackers",
+    "story": "A enemy train has been spotted in the Area of Operations. Our intel suggests it is carrying vital supplies to the enemy. Destroy it before it can deliver the cargo!",
+    "objective": "Ground attackers must engage and completely destroy an enemy train(s)/station. Succeed if the target is completly destroyed AND all pilots RTB.",
+    "note": "If this type of target is not available in the mission, select one according to the die roll ( die roll of 1-10: Target must be the closest one to friendly lines / die roll of 11-20: Target must be the furthest one behind enemy lines).",
+    "reward": "Bonus on success: If less than 10 objects are destroyed (minimum 1), ground attackers have a 25% chance of receiving a random level II card*. If 10 or more targets are destroyed, chances increase to 40%. Chances are 15 and 25% for escort pilots, respectively."
+  }
+]

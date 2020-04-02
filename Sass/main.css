@@ -10,6 +10,19 @@ body {
   font-family: 'PT Sans Caption', sans-serif;
 }
 
+.nation-img {
+  margin-top: -3.9rem;
+}
+
+.nation-img-top {
+  border: .2rem solid #252525;
+  border-radius: .2rem;
+  border-radius: 50% !important;
+  position: relative;
+  top: 3.5rem;
+  z-index: 2;
+}
+
 .card {
   border: 1rem solid #252525;
   border-radius: 2rem;
@@ -69,6 +82,7 @@ body {
   margin-left: 1.4rem;
   margin-right: 1.4rem;
   margin-bottom: 0.1rem;
+  padding: 0 3rem;
 }
 
 .card-number {
@@ -76,9 +90,16 @@ body {
   background-color: #252525;
   border-radius: 50%;
   color: white;
+  height: 2.5rem;
+  width: 2.5rem;
+  padding-top: 0.2rem;
+  font-size: 1.4rem;
 }
 
 .card-number-position {
+  position: relative;
+  left: 0.9rem;
+  top: 0.3rem;
   margin-left: -1.8rem;
   margin-top: -0.9rem;
 }

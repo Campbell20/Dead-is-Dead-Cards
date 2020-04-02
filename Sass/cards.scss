@@ -2,7 +2,7 @@
 @mixin border {
     border: .2rem solid #252525;
     border-radius: .2rem;
-    
+
 }
 
 @mixin backgroundvalues {
@@ -12,13 +12,29 @@
     background-size: cover;
     padding-bottom: 2rem;
     padding-top: 0.6rem;
-    
+
 }
 
-$bckgrndcolor:  rgba(241, 241, 241, 0.5);
+$bckgrndcolor: rgba(241, 241, 241, 0.5);
 
 body {
     font-family: 'PT Sans Caption', sans-serif;
+}
+
+//nation symbol styling
+.nation {
+    &-img {
+        margin-top: -3.9rem;
+
+        &-top {
+            @include border();
+            border-radius: 50% !important;
+            position: relative;
+            top: 3.5rem;
+            z-index: 2;
+        }
+    }
+
 }
 
 //card styling
@@ -45,11 +61,12 @@ body {
         @include backgroundvalues();
     }
 
-    &-reward{
+    &-reward {
         &-axis {
             background-image: url("../images/background_rewards.png");
             @include backgroundvalues();
         }
+
         &-allied {
             background-image: url("../images/background_rewards.png");
             @include backgroundvalues();
@@ -65,7 +82,8 @@ body {
         margin-left: 1.4rem;
         margin-right: 1.4rem;
         margin-bottom: 0.1rem;
-     
+        padding: 0 3rem;
+
     }
 
     &-number {
@@ -73,8 +91,15 @@ body {
         background-color: #252525;
         border-radius: 50%;
         color: white;
+        height: 2.5rem;
+        width: 2.5rem;
+        padding-top: 0.2rem;
+        font-size: 1.4rem;
 
         &-position {
+            position: relative;
+            left: 0.9rem;
+            top: 0.3rem;
             margin-left: -1.8rem;
             margin-top: -0.9rem;
         }
@@ -89,6 +114,7 @@ body {
             z-index: 1;
         }
     }
+
     &-body {
         @include border();
         background-color: $bckgrndcolor;

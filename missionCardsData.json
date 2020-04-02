@@ -1,8 +1,8 @@
 [
   {
-    "nation": "images\\nations\\germany.png",
+    "nation": "images\\nations\\LW_Cross.png",
     "title": "Jabo Enemy Artillery Position",
-    "image": "images\\missions\\Jabo_Enemy_Artillery_Position.png",
+    "image": "images\\missions\\LW_Jabo_Enemy_Artillery_Position.png",
     "type": "Fighter",
     "story": "Enemy artillery emplacements are hammering our advancing troops and destroying our armoured vehicles that attempt to outflank their position.",
     "objective": "Attack and completely destroy an enemy artillery position using <em>ONLY</em> a Jabo loadout and return to base with minimumal damage to your plane.",
@@ -10,7 +10,7 @@
     "reward": "If mission is completed, then all <em>alive</em> pilots on the mission recieve a card from the level 1 deck on 6 or better (from D20 roll). Otherwise, all alive pilots recieve a card from the level 1 deck on a 16 or better (from D20 roll)."
   },
   {
-    "nation": "images\\nations\\germany.png",
+    "nation": "images\\nations\\LW_Cross.png",
     "title": "Free Hunt",
     "image": "images\\missions\\LW_Free_Hunt.png",
     "type": "Fighter",
@@ -20,7 +20,7 @@
     "reward": "If less than 3 enemy aircarfts are destroyed (minimum 1), every <em>alive</em> pilot participating gets a level 1 reward card on a 16 or better. If more than 3 enemy are destroyed; reward cards are given on 10 or better."
   },
   {
-    "nation": "images\\nations\\germany.png",
+    "nation": "images\\nations\\LW_Cross.png",
     "title": "Area Patrol",
     "image": "images\\missions\\LW_Area_Patrol.png",
     "type": "Fighter",
@@ -30,7 +30,7 @@
     "reward": "If less than 3 enemy aircarfts are destroyed (minimum 1), every <em>alive</em> pilot participating gets a level 1 reward card on a 16 or better. If more than 3 enemy are destroyed; reward cards are given on 10 or better."
   },
   {
-    "nation": "images\\nations\\germany.png",
+    "nation": "images\\nations\\LW_Cross.png",
     "title": "Ground Troop Cover",
     "image": "images\\missions\\LW_Ground_Troop_Cover.png",
     "type": "Fighter",
@@ -40,7 +40,7 @@
     "reward": "Every pilot participating in the sortie gets a single level 1 reward card on a 12 or better. If enemy aircrafts that attack the protected target are destroyed, level 1 reward card is given on 8 or better."
   },
   {
-    "nation": "images\\nations\\germany.png",
+    "nation": "images\\nations\\LW_Cross.png",
     "title": "Intercept Bombers",
     "image": "images\\missions\\intercept_bombers.png",
     "type": "Fighter",
@@ -50,7 +50,7 @@
     "reward": "If less than 3 enemy bombers are destroyed (minimum 1), every pilot participating in the mission will recieve a level 1 reward card on 8 or better. If 3 or more are destroyed, reward cards are given on 6 or better."
   },
   {
-    "nation": "images\\nations\\germany.png",
+    "nation": "images\\nations\\LW_Cross.png",
     "title": "Relocate",
     "image": "images\\missions\\LW_Relocate.png",
     "type": "Fighter",
@@ -60,7 +60,7 @@
     "reward": "Every pilot participating in the sortie gets a single bonus card on a 15 or better. If enemy aircraft are destroyed during the misison, reward card is given on 10 or better."
   },
   {
-    "nation": "images\\nations\\germany.png",
+    "nation": "images\\nations\\LW_Cross.png",
     "title": "Frontline Support",
     "image": "images\\missions\\LW_Frontline_Support.png",
     "type": "Ground Attackers",
@@ -70,7 +70,7 @@
     "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If ground kills also include tanks (atleast 2), reward card is given on 10 or better."
   },
   {
-    "nation": "images\\nations\\germany.png",
+    "nation": "images\\nations\\LW_Cross.png",
     "title": "Attack Enemy Ships",
     "image": "images\\missions\\LW_Attack_Enemy_Ships.png",
     "type": "Ground Attackers",
@@ -80,7 +80,7 @@
     "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
   },
   {
-    "nation": "images\\nations\\germany.png",
+    "nation": "images\\nations\\LW_Cross.png",
     "title": "Attack Enemy Airfield",
     "image": "images\\missions\\LW_Attack_Enemy_Airfield.png",
     "type": "Ground Attackers",
@@ -90,13 +90,23 @@
     "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
   },
   {
-    "nation": "images\\nations\\germany.png",
+    "nation": "images\\nations\\LW_Cross.png",
     "title": "Attack Enemy Train",
     "image": "images\\missions\\LW_Attack_Enemy_Train.png",
     "type": "Ground Attackers",
     "story": "A enemy train has been spotted in the Area of Operations. Our intel suggests it is carrying vital supplies to the enemy. Destroy it before it can deliver the cargo!",
     "objective": "Ground attackers must engage and completely destroy an enemy train(s)/station. Succeed if the target is completly destroyed AND all pilots RTB.",
     "note": "If this type of target is not available in the mission, select one according to the die roll ( die roll of 1-10: Target must be the closest one to friendly lines / die roll of 11-20: Target must be the furthest one behind enemy lines).",
-    "reward": "Bonus on success: If less than 10 objects are destroyed (minimum 1), ground attackers have a 25% chance of receiving a random level II card*. If 10 or more targets are destroyed, chances increase to 40%. Chances are 15 and 25% for escort pilots, respectively."
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
+  },
+  {
+    "nation": "images\\nations\\USAAF_Roundel.png",
+    "title": "Attack Enemy Artillery Position",
+    "image": "",
+    "type": "Ground Attackers",
+    "story": "Enemy artillery emplacements are hammering our advancing troops and destroying our armoured vehicles that attempt to outflank their position. The Oberkommando needs us to eliminate the threat as soon as possible!",
+    "objective": "Ground attackers must engage and completely destroy an enemy artillery position. Succeed if the target is completly destroyed AND all pilots RTB.",
+    "note": "If this type of target is not available in the mission, select one according to the die roll ( die roll of 1-10: Target must be the closest one to friendly lines / die roll of 11-20: Target must be the furthest one behind enemy lines).",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
   }
 ]

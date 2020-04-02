@@ -18,15 +18,19 @@
 </head>
 
 <body class="felt">
-
     <template>
         <div class="py-2 px-3 d-flex justify-content-center">
-            <div class="card col col-sm-12 col-md-6 col-lg-3 px-0">
+            <div class="card col col-sm-12 col-md-6 col-lg-4 px-0">
                 <div class="card-mission">
                     <div class="col-12">
-                        <div class="col d-inline-flex pt-3">
-                            <h5 class="card-title text-center col-11" id="mission-title"></h5>
-                            <div class="col-1 px-0 pt-1 card-number-position">
+                        <div class="nation-img">
+                            <img class="nation-img-top" id="nation-img" src="images/nations/germany.png" alt="">
+                        </div>
+                        <div class="col d-inline-flex">
+                            <div class="col-12 px-0 d-flex justify-content-center">
+                                <h5 class="card-title text-center col-11" id="mission-title"></h5>
+                            </div>
+                            <div class="card-number-position">
                                 <div class="card-number" id="mission-id"></div>
                             </div>
                         </div>
@@ -36,6 +40,7 @@
                         </div>
 
                         <div class="card-body">
+                            <div class="card-type" id="mission-type"></div>
                             <p class="card-text text-story"><em class="mission-span-story" id="mission-story"></em></p>
                             <div class="card-text text-mission">
                                 <strong>MISSION: </strong><span class="mission-span-obj" id="mission-objective"></span>
@@ -43,8 +48,7 @@
                                     <em>NOTE: <span class="mission-span-note" id="mission-note"></span></em>
                                 </div>
                             </div>
-                            <p class="card-text text-mission"><strong>REWARD: </strong><span class="mission-span-reward"
-                                    id="mission-reward"></span></p>
+                            <p class="card-text text-mission"><strong>REWARD: </strong><span class="mission-span-reward" id="mission-reward"></span></p>
                         </div>
                     </div>
                 </div>

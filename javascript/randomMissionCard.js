@@ -26,6 +26,7 @@ $(document).ready(function () {
         document.body.appendChild(a);
 
         //add in the data to each id
+        document.getElementById("nation-img").src = json[i].nation;
         document.getElementById("mission-title").innerHTML = json[i].title;
         document.getElementById("mission-id").innerHTML = i;
         document.getElementById("mission-type").innerHTML = json[i].type;

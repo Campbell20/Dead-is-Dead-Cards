@@ -14,10 +14,10 @@
     "title": "Free Hunt",
     "image": "images\\missions\\LW_Free_Hunt.png",
     "type": "Fighters",
-    "story": "Current Intel reported enemy units operating near the front lines. The Oberkommando is concerned about potential attempts to recon and control the area by the enemy.",
-    "objective": "Hunt enemy aircraft in a tactically important sector (must be owned by the enemy) for at least 30 minutes of in game time and return to the base with minimual damage.",
+    "story": "Current Intel reports enemy units operating near one of our front line sectors. The Oberkommando is concerned about potential air incurssions by the enemy in the area and is requesting that we intercept any enemy planes in the vicinity.",
+    "objective": "Hunt enemy aircraft in a tactically important sector (must be owned by the enemy) for at least 45 minutes of in game time. <em>ALL</em> planes must RTB with minimal damage.",
     "note": "Mission must be at least 30 km behind enemy lines!",
-    "reward": "If less than 3 enemy aircarfts are destroyed (minimum 1), every <em>alive</em> pilot participating gets a level 1 reward card on a 16 or better. If more than 3 enemy are destroyed; reward cards are given on 10 or better."
+    "reward": "If less than 3 enemy aircarfts are destroyed (minimum 1), every <em>ALIVE</em> pilot participating in the mission receives a bonus card on a 16 or better roll (d20). If more than 3 enemies are destroyed, reward card is given on 12 or better."
   },
   {
     "nation": "images\\nations\\LW_Cross.png",

@@ -7,7 +7,7 @@
     "story": "Enemy artillery emplacements are hammering our advancing troops and destroying our armoured vehicles that attempt to advance pass their position. The Oberkommando is requesting our unit to conduct an attack at their position.",
     "objective": "Attack and completely destroy an enemy artillery position using <em>ONLY</em> a Jabo loadout. At least 50% of your flight must RTB with minimal damage.",
     "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10 roll: target is the closest one/11-20 roll: target is the furthest one). \nIf this type of target is not available on the map, a die roll will determine the type and location (1-10 roll: target must be the closest one to friendly lines/11-20 roll: target must be the furthest one behind enemy lines).",
-    "reward": "If mission is completed successfully, then all <em>alive</em> pilots on the mission recieve a card from the level 1 deck on 6 or better (from D20 roll). Otherwise, all alive pilots receive a card from the level 1 deck on a 16 or better (from D20 roll)."
+    "reward": "Every pilot participating in the mission receives a single bonus card on a 16 or better (d20). If more than 25 ground targets are destroyed during the mission, reward card is given on 12 or better."
   },
   {
     "nation": "images\\nations\\LW_Cross.png",

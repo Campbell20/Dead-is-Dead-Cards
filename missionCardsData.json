@@ -188,5 +188,15 @@
     "objective": "?",
     "note": "We will come up with something I'm sure",
     "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
+  },
+  {
+    "nation": "images\\nations\\LW_Cross.png",
+    "title": "Defend Tanks",
+    "image": "images\\missions\\LW_Defend_Tanks.png",
+    "type": "Fighters",
+    "story": "Our Panzer division is on on the move to capture an enemy sector but they need air support to complete their task. We must defend the air space and protect them in order to ensure they can completer their task.",
+    "objective": "?",
+    "note": "We will come up with something I'm sure",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
   }
 ]

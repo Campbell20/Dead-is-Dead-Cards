@@ -42,7 +42,7 @@
   {
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Intercept Bombers",
-    "image": "images\\missions\\intercept_bombers.png",
+    "image": "images\\missions\\LW_Intercept_Bombers.png",
     "type": "Fighters",
     "story": "Enemy bombers have been pounding our positions unhindered. The Oberkommando is requesting your unit to intercept them.",
     "objective": "Intercept enemy bombers with a bomber-hunting loadout.",

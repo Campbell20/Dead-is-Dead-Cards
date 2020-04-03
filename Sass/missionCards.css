@@ -20,6 +20,30 @@ body {
   border-radius: 2rem;
 }
 
+@media (min-width: 576px) {
+  .card-display {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-display {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-display {
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+  }
+}
+
 .card-type {
   background-color: #252525;
   color: white;
@@ -130,4 +154,8 @@ body {
 .text-note {
   font-size: .7rem;
 }
-/*# sourceMappingURL=cards.css.map */
+
+.die-roll {
+  background-color: aliceblue;
+}
+/*# sourceMappingURL=missionCards.css.map */

@@ -42,6 +42,29 @@ body {
     border: 1rem solid #252525;
     border-radius: 2rem;
 
+    &-display {
+
+        // Small devices (landscape phones, 576px and up)
+        @media (min-width: 576px) {
+            display: flex !important;
+        }
+
+        // Medium devices (tablets, 768px and up)
+        @media (min-width: 768px) {
+            display: flex !important;
+        }
+
+        // Large devices (desktops, 992px and up)
+        @media (min-width: 992px) {
+            display: inline-flex !important;
+        }
+
+        // // Extra large devices (large desktops, 1200px and up)
+        // @media (min-width: 1200px) {
+        //     ...
+        // }
+    }
+
     &-type {
         background-color: #252525;
         color: white;
@@ -134,5 +157,13 @@ body {
 
     &-note {
         font-size: .7rem;
+    }
+}
+
+
+
+.die {
+    &-roll {
+        background-color: aliceblue;
     }
 }

@@ -28,6 +28,30 @@ body {
   border-radius: 2rem;
 }
 
+@media (min-width: 576px) {
+  .card-display {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-display {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-display {
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+  }
+}
+
 .card-type {
   background-color: #252525;
   color: white;
@@ -39,7 +63,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 6.2rem;
+  width: 6.7rem;
   padding: 0 0.4rem;
 }
 
@@ -137,5 +161,15 @@ body {
 
 .text-note {
   font-size: .7rem;
+}
+
+.die-roll {
+  background-color: aliceblue;
+  border-radius: .25rem;
+}
+
+.flight-group {
+  font-size: 1.2rem;
+  color: brown;
 }
 /*# sourceMappingURL=main.css.map */

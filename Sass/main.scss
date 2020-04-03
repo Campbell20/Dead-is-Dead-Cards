@@ -1,13 +1,10 @@
 body {
-    font-family: 'Libre Baskerville', serif;
-  }
+  font-family: 'Libre Baskerville', serif;
+}
 
 
 .felt {
   background-image: url("../images/backgrounds/medals_blue_felt.png");
 }
 
-@import "cards.scss";
-
-
-
+@import "missionCards.scss";

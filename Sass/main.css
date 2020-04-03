@@ -165,5 +165,11 @@ body {
 
 .die-roll {
   background-color: aliceblue;
+  border-radius: .25rem;
+}
+
+.flight-group {
+  font-size: 1.2rem;
+  color: brown;
 }
 /*# sourceMappingURL=main.css.map */

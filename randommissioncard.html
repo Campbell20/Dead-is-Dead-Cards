@@ -41,36 +41,40 @@
     <div class="py-2">
         <div class="input-group col-6 py-2">
             <div class="input-group-prepend">
-              <span class="input-group-text">Fighter Flight Amount</span>
+                <span class="input-group-text">Fighter Flight Amount</span>
             </div>
-            <input type="number" class="form-control" id="fighters-amount"  placeholder="How many Fighter flights?" aria-label="Amount">
-            <div class="input-group-append">                
-            </div>
-          </div>
-
-          <div class="input-group col-6 py-2">
-            <div class="input-group-prepend">
-              <span class="input-group-text">Attacker Flight Amount</span>
-            </div>
-            <input type="number" class="form-control" id="attackers-amount"  placeholder="How many Attacker flights?" aria-label="Amount">
+            <input type="number" class="form-control" id="fighters-amount" placeholder="How many Fighter flights?"
+                aria-label="Amount">
             <div class="input-group-append">
             </div>
-          </div>
+        </div>
 
-          <button class="btn btn-primary col-6" type="button" id="get-random-cards-btn">Get Mission Cards</button>
+        <div class="input-group col-6 py-2">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Attacker Flight Amount</span>
+            </div>
+            <input type="number" class="form-control" id="attackers-amount" placeholder="How many Attacker flights?"
+                aria-label="Amount">
+            <div class="input-group-append">
+            </div>
+        </div>
 
-        <a href="index.html" class="btn btn-secondary">Return to Menu</a>
+        <div class="col-6">
+            <button class="btn btn-primary" type="button" id="get-random-cards-btn">Get Mission Cards</button>
 
-        <div class="die-roll col-6">If you were to roll the d20 die right now, your number would be: <span
+            <a href="index.html" class="btn btn-secondary">Return to Menu</a>
+        </div>
+        <div class="die-roll col-6 my-3">If you were to roll the d20 die right now, your number would be: <span
                 class="die-roll" id="dieroll"></span>
         </div>
     </div>
 
-    <div class="row card-display" id="cards"></div>
+    <div class="row card-display px-5" id="cards"></div>
 
 
     <template>
         <div class="py-2 col col-md-6 col-lg-4 card-parent">
+            <div class="die-roll mb-2 col-8 offset-2">Flight group <span class="flight-group" id="flight-group-id"></span> card is:</div>
             <div class="card px-0">
                 <div class="card-mission">
                     <div class="col-12">

@@ -157,5 +157,12 @@ body {
 
 .die-roll {
   background-color: aliceblue;
+  opacity: .5;
+  border-radius: .25rem;
+}
+
+.flight-group {
+  font-size: 1.2rem;
+  color: brown;
 }
 /*# sourceMappingURL=missionCards.css.map */

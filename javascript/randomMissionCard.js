@@ -18,7 +18,7 @@ $(document).ready(function () {
             numFightersParsed = parseInt(numFighters);
             numAttackersParsed = parseInt(numAttackers);
             total = numAttackersParsed + numFightersParsed;
-            
+
 
             //get the fighter cards if any
             for (i = 0; i < total; i++) {
@@ -99,9 +99,13 @@ $(document).ready(function () {
         $(".card-img-top").each(function (i) {
             $(this).attr('id', "mission-img" + (i + 1 - 1));
         });
+        $(".flight-group").each(function (i) {
+            $(this).attr('id', "flight-group-id" + (i + 1 - 1));
+        });
     }
 
     function addJsonData(json, i, index) {
+        console.log(json);
         document.getElementById("nation-img" + i).src = json[index].nation;
         document.getElementById("mission-title" + i).innerHTML = json[index].title;
         document.getElementById("mission-id" + i).innerHTML = index;
@@ -111,6 +115,55 @@ $(document).ready(function () {
         document.getElementById("mission-note" + i).innerHTML = json[index].note;
         document.getElementById("mission-reward" + i).innerHTML = json[index].reward;
         document.getElementById("mission-img" + i).src = json[index].image;
+
+        document.getElementById("flight-group-id" + i).innerHTML = setFlightName(i);
+    }
+
+
+    function setFlightName(i) {
+        switch (i) {
+            case 0:
+                i = "Raptor";
+                break;
+            case 1:
+                i = "Falcons";
+                break;
+            case 2:
+                i = "Vultures";
+                break;
+            case 3:
+                i = "Eagles";
+                break;
+            case 4:
+                i = "Hawks";
+                break;
+            case 5:
+                i = "Shrikes";
+                break;
+            case 6:
+                i = "Accipiters";
+                break;
+            case 7:
+                i = "Kites";
+                break;
+            case 8:
+                i = "Osprey";
+                break;
+            case 9:
+                i = "Owls";
+                break;
+            case 10:
+                i = "Harriers";
+                break;
+            case 11:
+                i = "Buetos";
+                break;
+            default:
+                i = "unnamed";
+                break;
+        }
+        console.log(i);
+        return i;
     }
 
 });

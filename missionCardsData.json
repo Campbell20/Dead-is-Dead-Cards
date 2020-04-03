@@ -178,5 +178,15 @@
     "objective": "?",
     "note": "We will come up with something I'm sure",
     "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
+  },
+  {
+    "nation": "images\\nations\\LW_Cross.png",
+    "title": "Defend Airfield",
+    "image": "images\\missions\\LW_Defend_Airfield.png",
+    "type": "Fighters",
+    "story": "Recent acquired Intel suggests that enemy aircraft are approaching one of our operational air bases near the front line. Scramble! Scramble! We must defend the position!",
+    "objective": "?",
+    "note": "We will come up with something I'm sure",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
   }
 ]

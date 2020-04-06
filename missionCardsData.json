@@ -1,15 +1,17 @@
 [
   {
+    "id": 0,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Jabo Enemy Artillery Position",
     "image": "images\\missions\\LW_Jabo_Enemy_Artillery_Position.png",
     "type": "Fighters",
     "story": "Enemy artillery emplacements are hammering our advancing troops and destroying our armoured vehicles that attempt to advance pass their position. The Oberkommando is requesting our unit to conduct an attack at their position.",
     "objective": "Attack and completely destroy an enemy artillery position using <em>ONLY</em> a Jabo loadout. At least 50% of your flight must RTB with minimal damage.",
-    "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10 roll: target is the closest one/11-20 roll: target is the furthest one). \nIf this type of target is not available on the map, a die roll will determine the type and location (1-10 roll: target must be the closest one to friendly lines/11-20 roll: target must be the furthest one behind enemy lines).",
+    "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). \nIf this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
     "reward": "Every pilot participating in the mission receives a single bonus card on a 16 or better roll (d20). If more than 25 ground targets are destroyed during the mission, reward card is given on 12 or better."
   },
   {
+    "id": 1,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Free Hunt",
     "image": "images\\missions\\LW_Free_Hunt.png",
@@ -17,169 +19,186 @@
     "story": "Current Intel reports enemy units operating near one of our front line sectors. The Oberkommando is concerned about potential air incurssions by the enemy in the area and is requesting that we intercept any enemy planes in the vicinity.",
     "objective": "Hunt enemy aircraft in a tactically important sector (must be owned by the enemy) for at least 45 minutes of in game time. <em>ALL</em> planes must RTB with minimal damage.",
     "note": "Location of the Area of Operations is determined by a die roll (1-10: target must be within 20 km of the front-lines / 11-20: target must be, at least, 40 km behind enemy lines).",
-    "reward": "If less than 3 enemy aircarfts are destroyed (minimum 1), every <em>ALIVE</em> pilot participating in the mission receives a bonus card on a 16 or better roll (d20). If more than 3 enemies are destroyed, reward card is given on 12 or better."
+    "reward": "If less than 3 enemy aircrafts are destroyed (minimum 1), every <em>ALIVE</em> pilot participating in the mission receives a bonus card on a 16 or better roll (d20). If more than 3 enemies are destroyed, reward card is given on 12 or better."
   },
   {
+    "id": 2,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Area Patrol",
     "image": "images\\missions\\LW_Area_Patrol.png",
     "type": "Fighters",
-    "story": "Recent enemy activity near the front lines are very concerning and they are preventing any attempt of our troops to advance. We must control the air space as soon as possible!",
-    "objective": "Patrol an area of, at least, 30km2 that includes an active enemy airfield.",
-    "note": "Mission must be at least 60km behind enemy lines!",
-    "reward": "If less than 3 enemy aircarfts are destroyed (minimum 1), every <em>alive</em> pilot participating gets a level 1 reward card on a 16 or better. If more than 3 enemy are destroyed; reward cards are given on 10 or better."
+    "story": "The Oberkommando is concerned with the recent increase in enemy activity near the front lines. Frequent attacks to our troops are preventing any attempt to their advance and the Führer is growing inpatient. We must control the air space as soon as possible!",
+    "objective": "Patrol an area of, at least, 30km2 that includes an active enemy airfield. At least 75% of your flight must RTB with minimal damage.",
+    "note": "Location of the Area of Operations is determined by a die roll (1-10: target must be within 30 km of the front-lines / 11-20: target must be, at least, 60 km behind enemy lines).",
+    "reward": "If less than 3 enemy aircrafts are destroyed (minimum 1), every <em>ALIVE</em> pilot participating in the mission receives a bonus card on a 16 or better roll (d20). If more than 3 enemies are destroyed, reward card is given on 12 or better."
   },
   {
+    "id": 3,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Ground Troop Cover",
     "image": "images\\missions\\LW_Ground_Troop_Cover.png",
     "type": "Fighters",
     "story": "The Oberkommando is requesting cover for our ground troops that are pushing for a major counter offensive near the front. Protecting them is crucial in the success of the operation!",
-    "objective": "Fly a defensive mission over friendly ground troops that are near the front line for at least 45 minutes of in game time and return with minumual damage.",
-    "note": "Unit has to protect friendly units that are closests to the front lines or behind enemy lines.",
-    "reward": "Every pilot participating in the sortie gets a single level 1 reward card on a 12 or better. If enemy aircrafts that attack the protected target are destroyed, level 1 reward card is given on 8 or better."
+    "objective": "Fly a defensive mission over friendly ground troops that are near the front line for at least 45 minutes of in game time. At least 75% of your flight must RTB with minimal damage.",
+    "note": "Unit has to protect friendly units that are closests to the front lines (behind friendly or enemy lines - whichever is closer).",
+    "reward": "Every pilot participating in the mission receives a single bonus card on a 16 or better roll (d20). If more than 25 ground targets are destroyed during the mission, reward card is given on 12 or better."
   },
   {
+    "id": 4,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Intercept Bombers",
     "image": "images\\missions\\LW_Intercept_Bombers.png",
     "type": "Fighters",
-    "story": "Enemy bombers have been pounding our positions unhindered. The Oberkommando is requesting your unit to intercept them.",
-    "objective": "Intercept enemy bombers with a bomber-hunting loadout.",
-    "note": "Must score at least one bomber kill for this mission to be counted as completed.",
-    "reward": "If less than 3 enemy bombers are destroyed (minimum 1), every pilot participating in the mission will recieve a level 1 reward card on 8 or better. If 3 or more are destroyed, reward cards are given on 6 or better."
+    "story": "Enemy bombers have been pounding our positions unhindered lately. The Oberkommando is requesting your unit to search and intercept any bombers in the Area of Operations.",
+    "objective": "Intercept enemy bombers with a bomber-hunting loadout (gun-pods or extra cannons, if available).",
+    "note": "Must score at least one bomber kill, regardless of location, for this mission to be counted as completed.",
+    "reward": "If less than 3 enemy bombers are destroyed (minimum 1), every <em>ALIVE</em> pilot participating in the mission receives a bonus card on a 16 or better roll (d20). If more than 3 enemies are destroyed, reward card is given on 12 or better."
   },
   {
+    "id": 5,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Relocate",
     "image": "images\\missions\\LW_Relocate.png",
     "type": "Fighters",
-    "story": "Our current base of operation has been struggling with the frequent bombardments and lack of supplies. We have finally been ordered to transfer to another base. Ju-52s are transporting most of our supplies but whatever is left will remain here. Pack your bags guys, we are moving out!",
-    "objective": "Transfer your flight to another friendly airfield in the map and conduct 02 recce flights of, ate least, 30 min from your new airbase to the front lines.",
-    "note": "All pilots within the unit must RTB in order to be counted as completed. Failure to complete this mission causes all pilots to receive the \"Short Supply\" negative card.",
-    "reward": "Every pilot participating in the sortie gets a single bonus card on a 15 or better. If enemy aircraft are destroyed during the misison, reward card is given on 10 or better."
+    "story": "Our current base of operation has been struggling with frequent enemy bombardments and lack of supplies. We have finally been ordered to transfer to another base. Ju-52s have already left earlier today with most of our supplies but whatever is left will remain here. Pack your bags guys, we are moving out!",
+    "objective": "Transfer your flight to another friendly airfield in the map and conduct 01 recce flight of, at least, 30 min from your new airbase to the front lines. <em>ALL</em> planes must RTB with minimal damage.",
+    "note": "This is a defensive mission and no air/ground victories are necessary to complete this task. Failure to complete this mission, however, automatically gives all <em>ALIVE</em> pilots the \"Short Supply\" negative card.",
+    "reward": "Every pilot participating in the mission receives a single bonus card on a 18 or better roll (d20). If enemy aircraft are destroyed during the misison, reward card is given on 16 or better."
   },
   {
+    "id": 6,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Frontline Support",
     "image": "images\\missions\\LW_Frontline_Support.png",
     "type": "Attackers",
     "story": "Our troops are struggling to advance in the front due to the massive amount of enemies and supporting aircraft. We have been ordered to assist our ground attacking units near at the frontline.",
-    "objective": "Ground attackers must engage enemy troops located at the front-line. Supporting fighters,if any, will support the ground attackers in the Jabo role and concentrate their fire against anti-aircraft guns and possibly engage nearby enemy fighters at the closest target to the front.",
-    "note": "Target must be the closest available target to the frontlines and completly destroyed with, at least, 50% of the pilots returning to base in order to count as completed.",
-    "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If ground kills also include tanks (atleast 2), reward card is given on 10 or better."
+    "objective": "Ground attackers must engage enemy troops located at the front-line and concentrate their fire against artillery and armored units. If applicable (ground attackers that may also be used as heavy fighters) and if the situation permits, ground attackers should revert to the heavy fighter role and engage nearby enemy fighters at the closest target to the front. At least 50% of your flight must RTB with minimal damage.",
+    "note": "Unit has to attack ground targets that are closests to the front lines (behind friendly or enemy lines - whichever is closer).",
+    "reward": "Every pilot participating in the mission receives a single bonus card on a 16 or better roll (d20). If more than 25 ground targets are destroyed and they include, at least, 05 ships, reward card is given on 10 or better."
   },
   {
+    "id": 7,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Attack Enemy Ships",
     "image": "images\\missions\\LW_Attack_Enemy_Ships.png",
     "type": "Attackers",
     "story": "Enemy ships transporting supplies and troops have been spotted by our recon flights earlier today. We have been tasked with destroying these vital targets in order to support the Kriegsmarine and decrease the enemy's supply storages.",
-    "objective": "Ground attackers must engage and completely destroy enemy ship(s)/harbor. Succeed if the target is completly destroyed AND all pilots RTB.",
-    "note": "If this type of target is not available in the mission, select one according to the die roll (die roll of 1-10: Target must be the closest one to friendly lines / die roll of 11-20: Target must be the furthest one behind enemy lines).",
-    "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
+    "objective": "Ground attackers must engage and completely destroy enemy ship(s) <em>OR</em> harbor. At least 50% of your flight must RTB with minimal damage.",
+    "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). \nIf this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
   },
   {
+    "id": 8,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Attack Enemy Airfield",
     "image": "images\\missions\\LW_Attack_Enemy_Airfield.png",
     "type": "Attackers",
-    "story": "We have a very dangerous task today boys! The Oberkommando is requesting an aerial attack to one of the enemy’s airfield. Success in this mission is critical in allowing us to gain back the initiative in the air and, ultimately, in this war!",
-    "objective": "Ground attackers must engage enemy airfield strucutures like hangars, fuel and ammunition storages, as well as stationary enemy planes. Supporting fighters,if any, will support the ground attackers in the Jabo role and concentrate their fire against anti-aircraft guns and possibly engage nearby enemy fighters. Die roll determines target location (die roll 1-10: target must be the closest one to the front-line / die roll 11-20: Target must be the furthest one behind enemy lines).",
-    "note": "If this type of target is not available in the mission, select one according to the die roll (die roll of 1-10: Target must be the closest one to friendly lines / die roll of 11-20: Target must be the furthest one behind enemy lines).",
-    "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
+    "story": "We have a very dangerous task today boys! The Oberkommando is requesting an aerial attack to one of the enemy’s airfield. Success in this mission is critical in allowing us to regain the initiative in the air and, ultimately, in this war!",
+    "objective": "Ground attackers must engage enemy airfield strucutures (hangars, fuel and ammunition storages) as well as stationary enemy planes at the selected airfield. Die roll determines target location (die roll 1-10: target must be the closest one to the front-line / die roll 11-20: Target must be the furthest one behind enemy lines).",
+    "note": "If this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If more than 25 ground targets are destroyed and they include, at least, 10 stationary planes, reward card is given on 14 or better."
   },
   {
+    "id": 9,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Attack Enemy Train",
     "image": "images\\missions\\LW_Attack_Enemy_Train.png",
     "type": "Attackers",
     "story": "A enemy train has been spotted in the Area of Operations. Our intel suggests it is carrying vital supplies to the enemy. Destroy it before it can deliver the cargo!",
-    "objective": "Ground attackers must engage and completely destroy an enemy train(s)/station. Succeed if the target is completly destroyed AND all pilots RTB.",
-    "note": "If this type of target is not available in the mission, select one according to the die roll ( die roll of 1-10: Target must be the closest one to friendly lines / die roll of 11-20: Target must be the furthest one behind enemy lines).",
-    "reward": "Every alive pilot participating in the sortie receives 1 reward card on a 15 or better (d20). If enemy aircraft are destroyed during the mission, 1 reward card is given on 10 or better."
+    "objective": "Ground attackers must engage and completely destroy an enemy train(s). Succeed if the target is completly destroyed and <em>ALL</em> pilots RTB.",
+    "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). \nIf this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better (d20). If more than 25 ground targets are destroyed, reward card is given on 14 or better."
   },
   {
+    "id": 10,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Attack Enemy Artillery Position",
     "image": "images\\missions\\LW_Attack_Enemy_Artillery.png",
     "type": "Attackers",
     "story": "Enemy artillery emplacements are hammering our advancing troops and destroying our armoured vehicles that attempt to outflank their position. The Oberkommando needs us to eliminate the threat as soon as possible!",
-    "objective": "Ground attackers must engage and completely destroy an enemy artillery position. Succeed if the target is completly destroyed AND all pilots RTB.",
-    "note": "If this type of target is not available in the mission, select one according to the die roll ( die roll of 1-10: Target must be the closest one to friendly lines / die roll of 11-20: Target must be the furthest one behind enemy lines).",
-    "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
+    "objective": "Ground attackers must engage and completely destroy an enemy artillery position. At least 50% of your flight must RTB with minimal damage.",
+    "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). \nIf this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If more than 25 ground targets are destroyed and they include, at least, 10 artillery pieces, reward card is given on 14 or better."
   },
   {
+    "id": 11,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Attack Enemy Transport Column",
     "image": "images\\missions\\LW_Attack_Enemy_Transport_Column.png",
     "type": "Attackers",
     "story": "Recon aircraft has located a large transport column moving to resupply the enemy’s forces at the front lines. We must destroy them as soon as possible!",
-    "objective": "Ground attackers must engage and completely destroy an enemy artillery position. Succeed if the target is completly destroyed AND all pilots RTB.",
-    "note": "If this type of target is not available in the mission, select one according to the die roll ( die roll of 1-10: Target must be the closest one to friendly lines / die roll of 11-20: Target must be the furthest one behind enemy lines).",
-    "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
+    "objective": "Ground attackers must engage and completely destroy the enemy's transport column. Succeed if the target is completly destroyed AND all pilots RTB.",
+    "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). \nIf this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better (d20). If more than 25 ground targets are destroyed, reward card is given on 14 or better."
   },
   {
+    "id": 12,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Attack Enemy Tanks",
     "image": "images\\missions\\LW_Attack_Enemy_Tanks.png",
     "type": "Attackers",
     "story": "Enemy armoured units have been spotted in the front! This is the perfect opportunity to halt the enemy push against our lines.",
-    "objective": "Ground attackers must engage and completely destroy an enemy artillery position. Succeed if the target is completly destroyed AND all pilots RTB.",
-    "note": "If this type of target is not available in the mission, select one according to the die roll ( die roll of 1-10: Target must be the closest one to friendly lines / die roll of 11-20: Target must be the furthest one behind enemy lines).",
-    "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
+    "objective": "Ground attackers must engage and completely destroy an enemy armored column. At least 75% of your flight must RTB with minimal damage.",
+    "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). \nIf this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If more than 25 ground targets are destroyed and they include, at least, 2 heavy tanks, reward is given on 10 or better."
   },
   {
+    "id": 13,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Jabo Enemy Train",
     "image": "images\\missions\\LW_Jabo_Enemy_Train.png",
     "type": "Fighters",
     "story": "An enemy train has been spotted near the front lines. Our intel suggests it is carrying vital supplies to the enemy. Destroy it before it can deliver the cargo!",
-    "objective": "Ground attackers must engage and completely destroy an enemy artillery position. Succeed if the target is completly destroyed AND all pilots RTB.",
-    "note": "If this type of target is not available in the mission, select one according to the die roll ( die roll of 1-10: Target must be the closest one to friendly lines / die roll of 11-20: Target must be the furthest one behind enemy lines).",
-    "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
+    "objective": "Attack and completely destroy an enemy train using <em>ONLY</em> a Jabo loadout. <em>ALL</em> pilots must RTB with minimal damage.",
+    "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). \nIf this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
   },
   {
+    "id": 14,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Jabo Enemy Tanks",
     "image": "images\\missions\\LW_Jabo_Enemy_Tanks.png",
     "type": "Fighters",
     "story": "Enemy tanks are advancing to attack our lines. We must stop them as fast as possible.",
-    "objective": "Ground attackers must engage and completely destroy an enemy artillery position. Succeed if the target is completly destroyed AND all pilots RTB.",
-    "note": "If this type of target is not available in the mission, select one according to the die roll ( die roll of 1-10: Target must be the closest one to friendly lines / die roll of 11-20: Target must be the furthest one behind enemy lines).",
-    "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
+    "objective": "Attack and completely destroy an enemy armored column using <em>ONLY</em> a Jabo loadout. At least 75% of your flight must RTB with minimal damage.",
+    "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). \nIf this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
   },
   {
+    "id": 15,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Jabo Enemy Transport Column",
     "image": "images\\missions\\LW_Jabo_Enemy_Transport_Column.png",
     "type": "Fighters",
     "story": "Enemy supply column has been spotted and the Oberkommando is requesting that we take them out.",
-    "objective": "Ground attackers must engage and completely destroy an enemy artillery position. Succeed if the target is completly destroyed AND all pilots RTB.",
-    "note": "Ground attackers must engage and completely destroy an enemy artillery position. Succeed if the target is completly destroyed AND all pilots RTB.",
-    "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
+    "objective": "Attack and completely destroy an enemy train using <em>ONLY</em> a Jabo loadout. <em>ALL</em> pilots must RTB with minimal damage.",
+    "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). \nIf this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
   },
   {
+    "id": 16,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Reconnaissance",
     "image": "images\\missions\\LW_Reconnaissance.png",
     "type": "Fighters",
     "story": "The Oberkommando is requesting aerial recon over the enemy territory and our fighters are being re-equipped with cameras as we speak. Fly behind enemy lines and obtain image intel of, at least, three different targets. Targets must be located in different positions.",
-    "objective": "Dont know yet.",
-    "note": "We will come up with something I'm sure",
-    "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
+    "objective": "Conduct a photo reconnaissance mission behind enemy lines with, at least, one plane of the flight equipped with a photo camera (empty armament loadout). Plane carrying the photo equipment must RTB with minimal damage.",
+    "note": "Location of the targets to be photographed (minimum 3) may be selected by user but one of them must be at least 50km behind enemy lines. Photo Recon plane must fly at a maximum height of 2.500m on top of target and take a print screen or in-game recording of the area for the image collection.",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If flight is not engaged by enemy fighters during the mission, reward card is given on 12 or better."
   },
   {
+    "id": 17,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Defend Bridge",
     "image": "images\\missions\\LW_Defend_Bridge.png",
     "type": "Fighters",
-    "story": "Our troops are holding a vital bridge crossing that will be detrimental to our advance. We are tasked with protecting the troops as well as the bridge against enemy attacks and bombardments at all costs.",
-    "objective": "?",
-    "note": "We will come up with something I'm sure",
-    "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
+    "story": "Our troops are holding a vital bridgehead that will be detrimental to our advance. We are tasked with protecting the troops as well as the bridge against incoming enemy attacks and bombardments at all costs.",
+    "objective": "Conduct a defensive flight over a bridge position for at least 45 min and prevent its destruction. At least 75% of your flioght must RTB with minimal damage.",
+    "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). \nIf this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 12 or better."
   },
   {
+    "id": 18,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Defend Airfield",
     "image": "images\\missions\\LW_Defend_Airfield.png",
@@ -190,6 +209,7 @@
     "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
   },
   {
+    "id": 19,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Defend Tanks",
     "image": "images\\missions\\LW_Defend_Tanks.png",

@@ -1,6 +1,6 @@
 [
   {
-    "id": 0,
+    "id": 1,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Jabo Enemy Artillery Position",
     "image": "images\\missions\\LW_Jabo_Enemy_Artillery_Position.png",
@@ -11,7 +11,7 @@
     "reward": "Every pilot participating in the mission receives a single bonus card on a 16 or better roll (d20). If more than 25 ground targets are destroyed during the mission, reward card is given on 12 or better."
   },
   {
-    "id": 1,
+    "id": 2,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Free Hunt",
     "image": "images\\missions\\LW_Free_Hunt.png",
@@ -22,7 +22,7 @@
     "reward": "If less than 3 enemy aircrafts are destroyed (minimum 1), every <em>ALIVE</em> pilot participating in the mission receives a bonus card on a 16 or better roll (d20). If more than 3 enemies are destroyed, reward card is given on 12 or better."
   },
   {
-    "id": 2,
+    "id": 3,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Area Patrol",
     "image": "images\\missions\\LW_Area_Patrol.png",
@@ -33,7 +33,7 @@
     "reward": "If less than 3 enemy aircrafts are destroyed (minimum 1), every <em>ALIVE</em> pilot participating in the mission receives a bonus card on a 16 or better roll (d20). If more than 3 enemies are destroyed, reward card is given on 12 or better."
   },
   {
-    "id": 3,
+    "id": 4,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Ground Troop Cover",
     "image": "images\\missions\\LW_Ground_Troop_Cover.png",
@@ -44,7 +44,7 @@
     "reward": "Every pilot participating in the mission receives a single bonus card on a 16 or better roll (d20). If more than 25 ground targets are destroyed during the mission, reward card is given on 12 or better."
   },
   {
-    "id": 4,
+    "id": 5,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Intercept Bombers",
     "image": "images\\missions\\LW_Intercept_Bombers.png",
@@ -55,7 +55,7 @@
     "reward": "If less than 3 enemy bombers are destroyed (minimum 1), every <em>ALIVE</em> pilot participating in the mission receives a bonus card on a 16 or better roll (d20). If more than 3 enemies are destroyed, reward card is given on 12 or better."
   },
   {
-    "id": 5,
+    "id": 6,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Relocate",
     "image": "images\\missions\\LW_Relocate.png",
@@ -66,7 +66,7 @@
     "reward": "Every pilot participating in the mission receives a single bonus card on a 18 or better roll (d20). If enemy aircraft are destroyed during the misison, reward card is given on 16 or better."
   },
   {
-    "id": 6,
+    "id": 7,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Jabo Enemy Train",
     "image": "images\\missions\\LW_Jabo_Enemy_Train.png",
@@ -77,7 +77,7 @@
     "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
   },
   {
-    "id": 7,
+    "id": 8,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Jabo Enemy Tanks",
     "image": "images\\missions\\LW_Jabo_Enemy_Tanks.png",
@@ -88,7 +88,7 @@
     "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
   },
   {
-    "id": 8,
+    "id": 9,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Jabo Enemy Transport Column",
     "image": "images\\missions\\LW_Jabo_Enemy_Transport_Column.png",
@@ -99,7 +99,7 @@
     "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
   },
   {
-    "id": 9,
+    "id": 10,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Reconnaissance",
     "image": "images\\missions\\LW_Reconnaissance.png",
@@ -110,7 +110,7 @@
     "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If flight is not engaged by enemy fighters during the mission, reward card is given on 12 or better."
   },
   {
-    "id": 10,
+    "id": 11,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Defend Bridge",
     "image": "images\\missions\\LW_Defend_Bridge.png",
@@ -121,7 +121,7 @@
     "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 12 or better."
   },
   {
-    "id": 11,
+    "id": 12,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Defend Airfield",
     "image": "images\\missions\\LW_Defend_Airfield.png",
@@ -132,7 +132,7 @@
     "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If enemy aircraft are destroyed during the mission, reward card is given on 14 or better."
   },
   {
-    "id": 12,
+    "id": 13,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Defend Tanks",
     "image": "images\\missions\\LW_Defend_Tanks.png",
@@ -143,7 +143,51 @@
     "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If enemy aircraft are destroyed during the mission, reward card is given on 14 or better."
   },
   {
-    "id": 13,
+    "id": 14,
+    "nation": "images\\nations\\LW_Cross.png",
+    "title": "Defend Artillery Position",
+    "image": "images\\missions\\LW_Defend_Artillery_Position.png",
+    "type": "Fighters",
+    "story": "Enemy troops are advancing near one of our artillery/defensive position and we suspect the enemy will push for an aerial bombardement soon. We must defend this critically important area.",
+    "objective": "Conduct a defensive flight over one of our artillery position near the front line for, at least, 45 min and prevent their destruction. At least 50% of your flight must RTB with minimal damage.",
+    "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). If this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If enemy aircraft are destroyed during the mission, reward card is given on 14 or better."
+  },
+  {
+    "id": 15,
+    "nation": "images\\nations\\LW_Cross.png",
+    "title": "Defend Supply Column",
+    "image": "images\\missions\\LW_Defend_Supply_Column.png",
+    "type": "Fighters",
+    "story": "One of our supply columns is on the move and in need of immediate air support. We are tasked in protecting them from any enemy attacks.",
+    "objective": "Conduct a defensive flight over one of our supply columns near the front line for, at least, 45 min and prevent their destruction. At least 50% of your flight must RTB with minimal damage.",
+    "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). If this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If enemy aircraft are destroyed during the mission, reward card is given on 14 or better."
+  },
+  {
+    "id": 16,
+    "nation": "images\\nations\\LW_Cross.png",
+    "title": "Defend Train",
+    "image": "images\\missions\\LW_Defend_Train.png",
+    "type": "Fighters",
+    "story": "Our supply trains are on the move and the Oberkommando is requesting air cover to ensure they reach their destination. We must stop any enemy aircraft from attacking them.",
+    "objective": "Conduct a defensive flight over one of our train near the front line for, at least, 45 min and prevent their destruction. At least 50% of your flight must RTB with minimal damage.",
+    "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). If this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If enemy aircraft are destroyed during the mission, reward card is given on 14 or better."
+  },
+  {
+    "id": 17,
+    "nation": "images\\nations\\LW_Cross.png",
+    "title": "Defend Ships",
+    "image": "images\\missions\\LW_Defend_Ships.png",
+    "type": "Fighters",
+    "story": "The Kriegsmarine is on the move and they need air support to ensure they make it to their objective safely. We are tasked in protecting them!",
+    "objective": "Conduct a defensive flight over one of our ships near the front line for, at least, 45 min and prevent their destruction. At least 50% of your flight must RTB with minimal damage.",
+    "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). If this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If enemy aircraft are destroyed during the mission, reward card is given on 14 or better."
+  },
+  {
+    "id": 18,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Frontline Support",
     "image": "images\\missions\\LW_Frontline_Support.png",
@@ -154,7 +198,7 @@
     "reward": "Every pilot participating in the mission receives a single bonus card on a 16 or better roll (d20). If more than 25 ground targets are destroyed and they include, at least, 05 ships, reward card is given on 10 or better."
   },
   {
-    "id": 14,
+    "id": 19,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Attack Enemy Ships",
     "image": "images\\missions\\LW_Attack_Enemy_Ships.png",
@@ -165,7 +209,7 @@
     "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
   },
   {
-    "id": 15,
+    "id": 20,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Attack Enemy Airfield",
     "image": "images\\missions\\LW_Attack_Enemy_Airfield.png",
@@ -176,7 +220,7 @@
     "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If more than 25 ground targets are destroyed and they include, at least, 10 stationary planes, reward card is given on 14 or better."
   },
   {
-    "id": 16,
+    "id": 21,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Attack Enemy Train",
     "image": "images\\missions\\LW_Attack_Enemy_Train.png",
@@ -187,7 +231,7 @@
     "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better (d20). If more than 25 ground targets are destroyed, reward card is given on 14 or better."
   },
   {
-    "id": 17,
+    "id": 22,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Attack Enemy Artillery Position",
     "image": "images\\missions\\LW_Attack_Enemy_Artillery.png",
@@ -198,7 +242,7 @@
     "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If more than 25 ground targets are destroyed and they include, at least, 10 artillery pieces, reward card is given on 14 or better."
   },
   {
-    "id": 18,
+    "id": 23,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Attack Enemy Transport Column",
     "image": "images\\missions\\LW_Attack_Enemy_Transport_Column.png",
@@ -209,7 +253,7 @@
     "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better (d20). If more than 25 ground targets are destroyed, reward card is given on 14 or better."
   },
   {
-    "id": 19,
+    "id": 24,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Attack Enemy Tanks",
     "image": "images\\missions\\LW_Attack_Enemy_Tanks.png",

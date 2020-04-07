@@ -262,5 +262,16 @@
     "objective": "Ground attackers must engage and completely destroy an enemy armored column. At least 75% of your flight must RTB with minimal damage.",
     "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). \nIf this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
     "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If more than 25 ground targets are destroyed and they include, at least, 2 heavy tanks, reward is given on 10 or better."
+  },
+  {
+    "id": 30,
+    "nation": "images\\nations\\RAF_Roundel.png",
+    "title": "Free Hunt",
+    "image": "images\\missions\\RAF_Free_Hunt.png",
+    "type": "Fighters",
+    "story": "Current Intel reports enemy units operating near one of our front line sectors. The Fighter Command is concerned about potential air incurssions by the enemy in the area and is requesting that we intercept any enemy planes in the vicinity.",
+    "objective": "Hunt enemy aircraft in a tactically important sector (must be owned by the enemy) for at least 45 minutes of in game time. <em>ALL</em> planes must RTB with minimal damage.",
+    "note": "Location of the Area of Operations is determined by a die roll (1-10: target must be within 20 km of the front-lines / 11-20: target must be, at least, 40 km behind enemy lines).",
+    "reward": "If less than 3 enemy aircrafts are destroyed (minimum 1), every <em>ALIVE</em> pilot participating in the mission receives a bonus card on a 16 or better roll (d20). If more than 3 enemies are destroyed, reward card is given on 12 or better."
   }
 ]

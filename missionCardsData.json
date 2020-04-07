@@ -322,7 +322,7 @@
     "id": 31,
     "nation": "images\\nations\\RAF_Roundel.png",
     "title": "Relocate",
-    "image": "images\\missions\\RAF_Relocate.png",
+    "image": "images\\missions\\RAF_Relocate2.png",
     "type": "Fighters",
     "story": "Our current base of operation has been struggling with frequent enemy bombardments and lack of supplies. We have finally been ordered to transfer to another base. Avro Yorks have already left earlier today with most of our supplies but whatever is left will remain here. Pack your bags guys, we are moving out!",
     "objective": "Transfer your flight to another friendly airfield in the map and conduct 01 recce flight of, at least, 30 min from your new airbase to the front lines. <em>ALL</em> planes must RTB with minimal damage.",

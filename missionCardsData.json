@@ -306,5 +306,16 @@
     "objective": "Fly a defensive mission over friendly ground troops that are near the front line for at least 45 minutes of in game time. At least 75% of your flight must RTB with minimal damage.",
     "note": "Unit has to protect friendly units that are closests to the front lines (behind friendly or enemy lines - whichever is closer).",
     "reward": "Every pilot participating in the mission receives a single bonus card on a 16 or better roll (d20). If more than 25 ground targets are destroyed during the mission, reward card is given on 12 or better."
+  },
+  {
+    "id": 30,
+    "nation": "images\\nations\\RAF_Roundel.png",
+    "title": "Intercept Bombers",
+    "image": "images\\missions\\RAF_Intercept_Bombers.png",
+    "type": "Fighters",
+    "story": "Enemy bombers have been pounding our positions unhindered lately. The Fighter Commando is requesting your unit to search and intercept any bombers in the Area of Operations.",
+    "objective": "Intercept enemy bombers with a bomber-hunting loadout (gun-pods or extra cannons, if available).",
+    "note": "Must score at least one bomber kill, regardless of location, for this mission to be counted as completed.",
+    "reward": "If less than 3 enemy bombers are destroyed (minimum 1), every <em>ALIVE</em> pilot participating in the mission receives a bonus card on a 16 or better roll (d20). If more than 3 enemies are destroyed, reward card is given on 12 or better."
   }
 ]

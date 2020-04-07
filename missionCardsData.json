@@ -270,7 +270,7 @@
     "image": "images\\missions\\RAF_Attack_Enemy_Artillery_Position.png",
     "type": "Fighters",
     "story": "Enemy artillery emplacements are hammering our advancing troops and destroying our armoured vehicles that attempt to advance pass their position. The Fighter Command is requesting our unit to conduct an attack at their position.",
-    "objective": "Attack and completely destroy an enemy artillery position using <em>ONLY</em> a Jabo loadout. At least 50% of your flight must RTB with minimal damage.",
+    "objective": "Attack and completely destroy an enemy artillery position using <em>ONLY</em> a Ground-fighter loadout. At least 50% of your flight must RTB with minimal damage.",
     "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). \nIf this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
     "reward": "Every pilot participating in the mission receives a single bonus card on a 16 or better roll (d20). If more than 25 ground targets are destroyed during the mission, reward card is given on 12 or better."
   },
@@ -317,5 +317,27 @@
     "objective": "Intercept enemy bombers with a bomber-hunting loadout (gun-pods or extra cannons, if available).",
     "note": "Must score at least one bomber kill, regardless of location, for this mission to be counted as completed.",
     "reward": "If less than 3 enemy bombers are destroyed (minimum 1), every <em>ALIVE</em> pilot participating in the mission receives a bonus card on a 16 or better roll (d20). If more than 3 enemies are destroyed, reward card is given on 12 or better."
+  },
+  {
+    "id": 31,
+    "nation": "images\\nations\\RAF_Roundel.png",
+    "title": "Relocate",
+    "image": "images\\missions\\RAF_Relocate.png",
+    "type": "Fighters",
+    "story": "Our current base of operation has been struggling with frequent enemy bombardments and lack of supplies. We have finally been ordered to transfer to another base. Avro Yorks have already left earlier today with most of our supplies but whatever is left will remain here. Pack your bags guys, we are moving out!",
+    "objective": "Transfer your flight to another friendly airfield in the map and conduct 01 recce flight of, at least, 30 min from your new airbase to the front lines. <em>ALL</em> planes must RTB with minimal damage.",
+    "note": "This is a defensive mission and no air/ground victories are necessary to complete this task. Failure to complete this mission, however, automatically gives all <em>ALIVE</em> pilots the \"Short Supply\" negative card.",
+    "reward": "Every pilot participating in the mission receives a single bonus card on a 18 or better roll (d20). If enemy aircraft are destroyed during the misison, reward card is given on 16 or better."
+  },
+  {
+    "id": 32,
+    "nation": "images\\nations\\RAF_Roundel.png",
+    "title": "Attack Enemy Train",
+    "image": "images\\missions\\RAF_Attack_Enemy_Train.png",
+    "type": "Fighters",
+    "story": "An enemy train has been spotted near the front lines. Our intel suggests it is carrying vital supplies to the enemy. Destroy it before it can deliver the cargo!",
+    "objective": "Attack and completely destroy an enemy train using <em>ONLY</em> a Ground-fighter loadout. <em>ALL</em> pilots must RTB with minimal damage.",
+    "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). \nIf this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
   }
 ]

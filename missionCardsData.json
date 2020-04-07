@@ -322,7 +322,7 @@
     "id": 31,
     "nation": "images\\nations\\RAF_Roundel.png",
     "title": "Relocate",
-    "image": "images\\missions\\RAF_Relocate2.png",
+    "image": "images\\missions\\RAF_Relocate.png",
     "type": "Fighters",
     "story": "Our current base of operation has been struggling with frequent enemy bombardments and lack of supplies. We have finally been ordered to transfer to another base. Avro Yorks have already left earlier today with most of our supplies but whatever is left will remain here. Pack your bags guys, we are moving out!",
     "objective": "Transfer your flight to another friendly airfield in the map and conduct 01 recce flight of, at least, 30 min from your new airbase to the front lines. <em>ALL</em> planes must RTB with minimal damage.",
@@ -337,6 +337,17 @@
     "type": "Fighters",
     "story": "An enemy train has been spotted near the front lines. Our intel suggests it is carrying vital supplies to the enemy. Destroy it before it can deliver the cargo!",
     "objective": "Attack and completely destroy an enemy train using <em>ONLY</em> a Fighter-Bomber loadout. <em>ALL</em> pilots must RTB with minimal damage.",
+    "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). \nIf this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
+  },
+  {
+    "id": 33,
+    "nation": "images\\nations\\RAF_Roundel.png",
+    "title": "Attack Enemy Tanks",
+    "image": "images\\missions\\RAF_Attack_Enemy_Tanks.png",
+    "type": "Fighters",
+    "story": "Enemy tanks are advancing to attack our lines. We must stop them as fast as possible.",
+    "objective": "Attack and completely destroy an enemy armored column using <em>ONLY</em> a Fighter-Bomber loadout. At least 75% of your flight must RTB with minimal damage.",
     "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). \nIf this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
     "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
   }

@@ -270,7 +270,7 @@
     "image": "images\\missions\\RAF_Attack_Enemy_Artillery_Position.png",
     "type": "Fighters",
     "story": "Enemy artillery emplacements are hammering our advancing troops and destroying our armoured vehicles that attempt to advance pass their position. The Fighter Command is requesting our unit to conduct an attack at their position.",
-    "objective": "Attack and completely destroy an enemy artillery position using <em>ONLY</em> a Ground-fighter loadout. At least 50% of your flight must RTB with minimal damage.",
+    "objective": "Attack and completely destroy an enemy artillery position using <em>ONLY</em> a Fighter-Bomber loadout. At least 50% of your flight must RTB with minimal damage.",
     "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). \nIf this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
     "reward": "Every pilot participating in the mission receives a single bonus card on a 16 or better roll (d20). If more than 25 ground targets are destroyed during the mission, reward card is given on 12 or better."
   },
@@ -336,7 +336,7 @@
     "image": "images\\missions\\RAF_Attack_Enemy_Train.png",
     "type": "Fighters",
     "story": "An enemy train has been spotted near the front lines. Our intel suggests it is carrying vital supplies to the enemy. Destroy it before it can deliver the cargo!",
-    "objective": "Attack and completely destroy an enemy train using <em>ONLY</em> a Ground-fighter loadout. <em>ALL</em> pilots must RTB with minimal damage.",
+    "objective": "Attack and completely destroy an enemy train using <em>ONLY</em> a Fighter-Bomber loadout. <em>ALL</em> pilots must RTB with minimal damage.",
     "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). \nIf this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
     "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
   }

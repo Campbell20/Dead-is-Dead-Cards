@@ -284,5 +284,27 @@
     "objective": "Hunt enemy aircraft in a tactically important sector (must be owned by the enemy) for at least 45 minutes of in game time. <em>ALL</em> planes must RTB with minimal damage.",
     "note": "Location of the Area of Operations is determined by a die roll (1-10: target must be within 20 km of the front-lines / 11-20: target must be, at least, 40 km behind enemy lines).",
     "reward": "If less than 3 enemy aircrafts are destroyed (minimum 1), every <em>ALIVE</em> pilot participating in the mission receives a bonus card on a 16 or better roll (d20). If more than 3 enemies are destroyed, reward card is given on 12 or better."
+  },
+  {
+    "id": 28,
+    "nation": "images\\nations\\RAF_Roundel.png",
+    "title": "Area Patrol",
+    "image": "images\\missions\\RAF_Area_Patrol.png",
+    "type": "Fighters",
+    "story": "The Fighter Command is concerned with the recent increase in enemy activity near the front lines. Frequent attacks to our troops are preventing any attempt to their advance and the High Command is growing inpatient. We must control the air space as soon as possible!",
+    "objective": "Patrol an area of, at least, 30km2 that includes an active enemy airfield. At least 75% of your flight must RTB with minimal damage.",
+    "note": "Location of the Area of Operations is determined by a die roll (1-10: target must be within 30 km of the front-lines / 11-20: target must be, at least, 60 km behind enemy lines).",
+    "reward": "If less than 3 enemy aircrafts are destroyed (minimum 1), every <em>ALIVE</em> pilot participating in the mission receives a bonus card on a 16 or better roll (d20). If more than 3 enemies are destroyed, reward card is given on 12 or better."
+  },
+  {
+    "id": 29,
+    "nation": "images\\nations\\RAF_Roundel.png",
+    "title": "Ground Troop Cover",
+    "image": "images\\missions\\RAF_Ground_Troop_Cover.png",
+    "type": "Fighters",
+    "story": "The Fighter Command is requesting cover for our ground troops that are pushing for a major counter offensive near the front. Protecting them is crucial in the success of the operation!",
+    "objective": "Fly a defensive mission over friendly ground troops that are near the front line for at least 45 minutes of in game time. At least 75% of your flight must RTB with minimal damage.",
+    "note": "Unit has to protect friendly units that are closests to the front lines (behind friendly or enemy lines - whichever is closer).",
+    "reward": "Every pilot participating in the mission receives a single bonus card on a 16 or better roll (d20). If more than 25 ground targets are destroyed during the mission, reward card is given on 12 or better."
   }
 ]

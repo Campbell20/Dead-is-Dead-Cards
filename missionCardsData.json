@@ -394,5 +394,38 @@
     "objective": "Conduct a defensive flight over one of our airbases (must be an objective/target air base) for at least 45 min and prevent its destruction. At least 75% of your flight must RTB with minimal damage.",
     "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). \nIf this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
     "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If enemy aircraft are destroyed during the mission, reward card is given on 14 or better."
+  },
+  {
+    "id": 38,
+    "nation": "images\\nations\\RAF_Roundel.png",
+    "title": "Defend Tanks",
+    "image": "images\\missions\\RAF_Defend_Tanks.png",
+    "type": "Fighters",
+    "story": "Our Armored Brigade is on on the move to capture an enemy sector but they need air support to complete their task. We must defend the air space and protect them in order to ensure they continue their advance.",
+    "objective": "Conduct a defensive flight over one of armored column near the front line for, at least, 45 min and prevent their destruction. At least 50% of your flight must RTB with minimal damage.",
+    "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). \nIf this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If enemy aircraft are destroyed during the mission, reward card is given on 14 or better."
+  },
+  {
+    "id": 39,
+    "nation": "images\\nations\\RAF_Roundel.png",
+    "title": "Defend Artillery Position",
+    "image": "images\\missions\\RAF_Defend_Artillery_Position.png",
+    "type": "Fighters",
+    "story": "Enemy troops are advancing near one of our artillery/defensive position and we suspect the enemy will push for an aerial bombardement soon. We must defend this critically important area.",
+    "objective": "Conduct a defensive flight over one of our artillery position near the front line for, at least, 45 min and prevent their destruction. At least 50% of your flight must RTB with minimal damage.",
+    "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). If this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If enemy aircraft are destroyed during the mission, reward card is given on 14 or better."
+  },
+  {
+    "id": 40,
+    "nation": "images\\nations\\RAF_Roundel.png",
+    "title": "Defend Supply Column",
+    "image": "images\\missions\\RAF_Defend_Supply_Column.png",
+    "type": "Fighters",
+    "story": "One of our supply columns is on the move and in need of immediate air support. We are tasked in protecting them from any enemy attacks.",
+    "objective": "Conduct a defensive flight over one of our supply columns near the front line for, at least, 45 min and prevent their destruction. At least 50% of your flight must RTB with minimal damage.",
+    "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). If this type of target is not available in the mission, re-roll for another random mission card until one with an appropriate target is selected.",
+    "reward": "Every pilot participating in the sortie receives a single bonus card on a 16 or better roll (d20). If enemy aircraft are destroyed during the mission, reward card is given on 14 or better."
   }
 ]

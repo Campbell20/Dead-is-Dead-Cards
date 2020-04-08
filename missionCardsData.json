@@ -7,7 +7,11 @@
     "type": "Fighters",
     "story": "Enemy artillery emplacements are hammering our advancing troops and destroying our armoured vehicles that attempt to advance pass their position. The Oberkommando is requesting our unit to conduct an attack at their position.",
     "objective": "Attack and completely destroy an enemy artillery position using <em>ONLY</em> a Jabo loadout. At least 50% of your flight must RTB with minimal damage.",
+<<<<<<< HEAD
     "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10: target is the closest one/ 11-20: target is the furthest one). \nIf this type of target is not available on the map, a die roll will determine the location (1-10: target must be the closest one to friendly lines/ 11-20: target must be the furthest behind enemy lines).",
+=======
+    "note": "In event there are 2 or more targets of this type on the map, a die roll will determine the location (1-10 roll: target is the closest one/11-20 roll: target is the furthest one). \nIf this type of target is not available on the map, a die roll will determine the type and location (1-10 roll: target must be the closest one to friendly lines/11-20 roll: target must be the furthest one behind enemy lines).",
+>>>>>>> 52f9766eaad014fb8c2a51d546a9b86d8e666c93
     "reward": "Every pilot participating in the mission receives a single bonus card on a 16 or better roll (d20). If more than 25 ground targets are destroyed during the mission, reward card is given on 12 or better."
   },
   {
@@ -19,7 +23,11 @@
     "story": "Current Intel reports enemy units operating near one of our front line sectors. The Oberkommando is concerned about potential air incurssions by the enemy in the area and is requesting that we intercept any enemy planes in the vicinity.",
     "objective": "Hunt enemy aircraft in a tactically important sector (must be owned by the enemy) for at least 45 minutes of in game time. <em>ALL</em> planes must RTB with minimal damage.",
     "note": "Location of the Area of Operations is determined by a die roll (1-10: target must be within 20 km of the front-lines / 11-20: target must be, at least, 40 km behind enemy lines).",
+<<<<<<< HEAD
     "reward": "If less than 3 enemy aircrafts are destroyed (minimum 1), every <em>ALIVE</em> pilot participating in the mission receives a bonus card on a 16 or better roll (d20). If more than 3 enemies are destroyed, reward card is given on 12 or better."
+=======
+    "reward": "If less than 3 enemy aircarfts are destroyed (minimum 1), every <em>ALIVE</em> pilot participating in the mission receives a bonus card on a 16 or better roll (d20). If more than 3 enemies are destroyed, reward card is given on 12 or better."
+>>>>>>> 52f9766eaad014fb8c2a51d546a9b86d8e666c93
   },
   {
     "id": 2,
@@ -198,10 +206,16 @@
     "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
   },
   {
+<<<<<<< HEAD
     "id": 18,
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Defend Airfield",
     "image": "images\\missions\\LW_Defend_Bridge.png",
+=======
+    "nation": "images\\nations\\LW_Cross.png",
+    "title": "Defend Airfield",
+    "image": "images\\missions\\LW_Defend_Airfield.png",
+>>>>>>> 52f9766eaad014fb8c2a51d546a9b86d8e666c93
     "type": "Fighters",
     "story": "Recent acquired Intel suggests that enemy aircraft are approaching one of our operational air bases near the front line. Scramble! Scramble! We must defend the position!",
     "objective": "?",
@@ -209,7 +223,10 @@
     "reward": "Every pilot participating in the sortie receives a single bonus card on a 15 or better (d20). If enemy aircraft are destroyed during the mission, reward card is given on 10 or better."
   },
   {
+<<<<<<< HEAD
     "id": 19,
+=======
+>>>>>>> 52f9766eaad014fb8c2a51d546a9b86d8e666c93
     "nation": "images\\nations\\LW_Cross.png",
     "title": "Defend Tanks",
     "image": "images\\missions\\LW_Defend_Tanks.png",

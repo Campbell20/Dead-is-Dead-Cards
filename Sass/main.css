@@ -165,6 +165,7 @@ body {
 
 .die-roll {
   background-color: aliceblue;
+  opacity: .5;
   border-radius: .25rem;
 }
 

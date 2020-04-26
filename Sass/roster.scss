@@ -1,11 +1,11 @@
 body {
-    background-image: url("/images/backgrounds/seamless_bricks.png");
+    background-image: url("../images/backgrounds/seamless_bricks.png");
     color: #ddd;
 }
 
 
 .table-border {
-    background-image: url(/images/backgrounds/large_mahogany_plywood.png);
+    background-image: url("../images/backgrounds/large_mahogany_plywood.png");
     background-position: center;
     background-size: 41rem;
     padding: 1.2rem;
@@ -26,7 +26,7 @@ table {
     border: 2px solid rgb(83, 40, 33);
 
     tbody {
-        background-image: url("/images/backgrounds/seamless_blackboard.jpg");
+        background-image: url("../images/backgrounds/seamless_blackboard.jpg");
      
         box-shadow: inset 2px 1px 7px 2px rgba(0, 0, 0, 0.7);
         tr {

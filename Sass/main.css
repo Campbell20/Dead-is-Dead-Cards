@@ -173,4 +173,43 @@ body {
   font-size: 1.2rem;
   color: brown;
 }
+
+.raf {
+  color: #181818;
+  background: #dbdbd9;
+}
+
+.raf .table-wrapper {
+  background: #bdbdb3;
+  padding: 0.5rem;
+  border-radius: .2rem;
+}
+
+.raf .table-wrapper .table-style {
+  font-family: 'Special Elite', cursive;
+}
+
+.raf .table-wrapper .table-style thead {
+  background: #c4c4bb;
+}
+
+.raf .table-wrapper .table-style tbody {
+  background: #cfcfc4;
+}
+
+.raf .table-wrapper .table-style th {
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+  border-color: rgba(143, 143, 143, 0.65);
+  border-bottom: solid 1px;
+  vertical-align: center;
+}
+
+.raf .table-wrapper .table-style td {
+  border-width: 0 1px 0 1px;
+  border-style: solid;
+  border-color: rgba(143, 143, 143, 0.65);
+  border-bottom: dotted 1px;
+  vertical-align: center;
+}
 /*# sourceMappingURL=main.css.map */

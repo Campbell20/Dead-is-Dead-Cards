@@ -1,85 +1,51 @@
-body {
-    background-image: url("../images/backgrounds/seamless_bricks.png");
-    color: #ddd;
+$body-bckgrnd:          #dbdbd9;
+$table-wrapper-bckgrnd: #bdbdb3;
+$thead-bckgrnd:         #c4c4bb;
+$tbody-bckgrnd:         #cfcfc4;
+
+$border: rgba(143, 143, 143, 0.65);
+$font-color: rgb(24, 24, 24);
+
+
+@mixin borderStyle($btm) {
+    border-style: solid;
+    border-color: $border;
+    border-bottom: $btm 1px;
+    vertical-align: center;
 }
 
+.raf {
+    color: $font-color;
+    background: $body-bckgrnd;
+    //background-image: url("../images/backgrounds/spitfire.jpg");
 
-.table-border {
-    background-image: url("../images/backgrounds/large_mahogany_plywood.png");
-    background-position: center;
-    background-size: 41rem;
-    padding: 1.2rem;
-    -webkit-box-shadow: 1px 4px 7px 2px rgba(0, 0, 0, 0.65);
-    box-shadow: 1px 4px 7px 2px rgba(0, 0, 0, 0.65);
-    border-radius: 0.3rem;
-    border: 2px solid #532821;
-}
+    .table-wrapper {
+        background: $table-wrapper-bckgrnd;
+        padding: 0.5rem;
+        border-radius: .2rem;
 
-table {
-    font-size: 1.2rem;
-    font-family: 'Neucha', cursive;
-    display: table;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 100%;
-    background-color: rgba(108, 117, 125, 0.87);
-    border: 2px solid rgb(83, 40, 33);
 
-    tbody {
-        background-image: url("../images/backgrounds/seamless_blackboard.jpg");
-     
-        box-shadow: inset 2px 1px 7px 2px rgba(0, 0, 0, 0.7);
-        tr {
+
+        .table-style {
+            font-family: 'Special Elite', cursive;
+
+            thead {
+                background: $thead-bckgrnd;
+            }
+
+            tbody {
+                background: $tbody-bckgrnd;
+            }
+
             th {
-                font-family: Courier New;
-                border-width: 0 1px 1px 1px;
-                border-style: solid;
-                border-color: #888;
-                background: rgba(29, 33, 36, 0.6);
-                // display: table-cell;
-                vertical-align: center;
-                font-size: 1rem;
-                text-align: center;
+                border-width: 1px 1px 0 1px;
+                @include borderStyle(solid);
             }
 
             td {
+
                 border-width: 0 1px 0 1px;
-                border-style: solid;
-                border-color: #aaa;
-                vertical-align: center;
-                border-bottom: dotted 1px;
-                text-align: center;
-
-                &:first-child {
-                    // border-right: transparent;
-                    border-left: transparent;
-                }
-
-                &:nth-child(2) {
-                    width: 8%;
-                    padding: 0.3rem 0;
-                }
-
-                &:last-child {
-                    border-right: transparent;
-                }
-
-                // &:nth-child(3) {
-                //     border-left: transparent;
-                // }
-
-                img {
-                    display: block;
-                    margin-left: auto;
-                    margin-right: auto;
-                }
-            }
-
-            &:last-of-type {
-                td{
-                    border-bottom: transparent;
-                }
-               
+                @include borderStyle(dotted);
             }
         }
     }

@@ -14,190 +14,201 @@
     <link rel="stylesheet" href="/Sass/roster.css">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+    <!-- datatables -->
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.20/r-2.2.3/datatables.min.css"/>
 </head>
 
-<body>
+<body class="raf">
     <section class="pilot-roster">
         <div class="container-fluid">
-
             <div class="personnel-title">
                 <h1>Personnel</h1>
             </div>
-            <div class="col">
-            <div class="table-border col-7">
-                <table>
-                    <tbody>
-                        <tr>
-                            <th>Username</th>
-                            <th>Photo</th>
-                            <th>Rank</th>
-                            <th>Pilot</th>
-                            <th>Sorties</th>
-                            <th>Air Kills</th>
-                            <th>Ground Kills</th>
-                        </tr>
-
-                        <tr >
-                            <td>Radicalpilot</td>
-                            <td><img width="75" height="100" src="/images/pilots/british/British01.jpg"></td>
-                            <td>Flt Lt</td>
-                            <td>Steven Banks</td>
-                            <td>10</td>
-                            <td>20</td>
-                            <td>1000</td>
-                        </tr>
-                        <tr>
-                            <td>Alonzo</td>
-                            <td><img width="75" height="100" src="/images/pilots/british/British02.jpg"></td>
-                            <td>Flt Lt</td>
-                            <td>Steven Banks</td>
-                            <td>10</td>
-                            <td>20</td>
-                            <td>1000</td>
-                        </tr>
-                        <tr>
-                            <td>Reagan</td>
-                            <td><img width="75" height="100" src="/images/pilots/british/British03.jpg"></td>
-                            <td>Flt Lt</td>
-                            <td>Steven Banks</td>
-                            <td>10</td>
-                            <td>20</td>
-                            <td>1000</td>
-                        </tr>
-                        <tr>
-                            <td>Cool Dude</td>
-                            <td><img width="75" height="100" src="/images/pilots/british/British04.jpg"></td>
-                            <td>Flt Lt</td>
-                            <td>Steven Banks</td>
-                            <td>10</td>
-                            <td>20</td>
-                            <td>1000</td>
-                        </tr>
-                        <tr>
-                            <td>Riksen</td>
-                            <td><img width="75" height="100" src="/images/pilots/british/British05.jpg"></td>
-                            <td>Flt Lt</td>
-                            <td>Steven Banks</td>
-                            <td>10</td>
-                            <td>20</td>
-                            <td>1000</td>
-                        </tr>
-                        <tr>
-                            <td>Sketch</td>
-                            <td><img width="75" height="100" src="/images/pilots/british/British06.jpg"></td>
-                            <td>Flt Lt</td>
-                            <td>Steven Banks</td>
-                            <td>10</td>
-                            <td>20</td>
-                            <td>1000</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="table-wrapper col-12">
+                <div class="table-responsive">
+                    <table class="table table-style" id="personnel-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Username</th>
+                                <th scope="col">Photo</th>
+                                <th scope="col">Rank</th>
+                                <th scope="col">Pilot</th>
+                                <th scope="col">Sorties</th>
+                                <th scope="col">Air Kills</th>
+                                <th scope="col">Ground Kills</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Radicalpilot</td>
+                                <td><img width="75" height="100" src="/images/pilots/british/British01.jpg">
+                                </td>
+                                <td>Flt Lt</td>
+                                <td>Steven Banks</td>
+                                <td>46</td>
+                                <td>13</td>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <td>Alonzo</td>
+                                <td><img width="75" height="100" src="/images/pilots/british/British02.jpg">
+                                </td>
+                                <td>F/Sgt.</td>
+                                <td> Andrew Barns</td>
+                                <td>7</td>
+                                <td>4</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Reagan</td>
+                                <td><img width="75" height="100" src="/images/pilots/british/British03.jpg">
+                                </td>
+                                <td>F/Sgt.</td>
+                                <td>Jether Hawkings</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>Sketch</td>
+                                <td><img width="75" height="100" src="/images/pilots/british/British04.jpg">
+                                </td>
+                                <td>F/Sgt.</td>
+                                <td>Bernard Teunissen</td>
+                                <td>100</td>
+                                <td>7</td>
+                                <td>15</td>
+                            </tr>
+                            <tr>
+                                <td>Riksen</td>
+                                <td><img width="75" height="100" src="/images/pilots/british/British05.jpg">
+                                </td>
+                                <td>F/Sgt.</td>
+                                <td>William Steele</td>
+                                <td>30</td>
+                                <td>17</td>
+                                <td>52</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
 
-            <div class="table-border col-5">
-                <table>
-                    <tbody>
-                        <tr>
-                            <th>Aircraft</th>
-                            <th>Code</th>
-                            <th>Serial</th>
-                            <th>Wing Type</th>
-                            <th>Armament</th>
-                            <th>Engine</th>
-                            <th>Gunsight</th>
-                            <th>Condition</th>
-                            <th>Fuel Loaded (100/130)</th>
-                            <th>Fuel Loaded (100/150)</th>
-                            <th>Status</th>
-                        </tr>
 
-                        <tr >
-                            <td>Spitfire Mk.IXe</td>
-                            <td>YO-A</td>
-                            <td>MJ202</td>
-                            <td>Type C standard</td>
-                            <td>Type E</td>
-                            <td>Merlin 66</td>
-                            <td>Default</td>
-                            <td>Operational</td>
-                            <td>100</td>
-                            <td>386</td>
-                            <td>not ready</td>
-                        </tr>
-                        <tr >
-                            <td>Spitfire Mk.IXe</td>
-                            <td>YO-A</td>
-                            <td>MJ202</td>
-                            <td>Type C standard</td>
-                            <td>Type E</td>
-                            <td>Merlin 66</td>
-                            <td>Default</td>
-                            <td>Operational</td>
-                            <td>100</td>
-                            <td>386</td>
-                            <td>not ready</td>
-                        </tr>
-                        <tr >
-                            <td>Spitfire Mk.IXe</td>
-                            <td>YO-A</td>
-                            <td>MJ202</td>
-                            <td>Type C standard</td>
-                            <td>Type E</td>
-                            <td>Merlin 66</td>
-                            <td>Default</td>
-                            <td>Operational</td>
-                            <td>100</td>
-                            <td>386</td>
-                            <td>not ready</td>
-                        </tr>
-                        <tr >
-                            <td>Spitfire Mk.IXe</td>
-                            <td>YO-A</td>
-                            <td>MJ202</td>
-                            <td>Type C standard</td>
-                            <td>Type E</td>
-                            <td>Merlin 66</td>
-                            <td>Default</td>
-                            <td>Operational</td>
-                            <td>100</td>
-                            <td>386</td>
-                            <td>not ready</td>
-                        </tr>
-                        <tr >
-                            <td>Spitfire Mk.IXe</td>
-                            <td>YO-A</td>
-                            <td>MJ202</td>
-                            <td>Type C standard</td>
-                            <td>Type E</td>
-                            <td>Merlin 66</td>
-                            <td>Default</td>
-                            <td>Operational</td>
-                            <td>100</td>
-                            <td>386</td>
-                            <td>not ready</td>
-                        </tr>
-
-                    </tbody>
-                </table>
+            <div class="personnel-title mt-5">
+                <h1>Logsitics</h1>
             </div>
-        </div>
+            <div class="table-wrapper col-12">
+                <div class="table-responsive">
+                    <table class="table table-style" id="supplies-table">
+                        <thead>
+                            <tr>
+                                <th>Aircraft</th>
+                                <th>Code</th>
+                                <th>Serial</th>
+                                <th>Wing Type</th>
+                                <th>Armament</th>
+                                <th>Engine</th>
+                                <th>Gunsight</th>
+                                <th>Condition</th>
+                                <th>Fuel Type</th>
+                                <th>Fuel Level</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Spitfire Mk.IXe</td>
+                                <td>YO-A</td>
+                                <td>MJ202</td>
+                                <td>Type C standard</td>
+                                <td>Type E</td>
+                                <td>Merlin 66</td>
+                                <td>Default</td>
+                                <td>Operational</td>
+                                <td>130</td>
+                                <td>386</td>
+                                <td>not ready</td>
+                            </tr>
+                            <tr>
+                                <td>Spitfire Mk.IXe</td>
+                                <td>YO-A</td>
+                                <td>MJ202</td>
+                                <td>Type C standard</td>
+                                <td>Type E</td>
+                                <td>Merlin 66</td>
+                                <td>Default</td>
+                                <td>Operational</td>
+                                <td>130</td>
+                                <td>386</td>
+                                <td>not ready</td>
+                            </tr>
+                            <tr>
+                                <td>Spitfire Mk.IXe</td>
+                                <td>YO-A</td>
+                                <td>MJ202</td>
+                                <td>Type C standard</td>
+                                <td>Type E</td>
+                                <td>Merlin 66</td>
+                                <td>Default</td>
+                                <td>Operational</td>
+                                <td>150</td>
+                                <td>386</td>
+                                <td>not ready</td>
+                            </tr>
+                            <tr>
+                                <td>Spitfire Mk.IXe</td>
+                                <td>YO-A</td>
+                                <td>MJ202</td>
+                                <td>Type C standard</td>
+                                <td>Type E</td>
+                                <td>Merlin 66</td>
+                                <td>Default</td>
+                                <td>Operational</td>
+                                <td>130</td>
+                                <td>386</td>
+                                <td>not ready</td>
+                            </tr>
+                            <tr>
+                                <td>Spitfire Mk.IXe</td>
+                                <td>YO-A</td>
+                                <td>MJ202</td>
+                                <td>Type C standard</td>
+                                <td>Type E</td>
+                                <td>Merlin 66</td>
+                                <td>Default</td>
+                                <td>Operational</td>
+                                <td>150</td>
+                                <td>386</td>
+                                <td>not ready</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+        
+    
+ 
+        <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.20/r-2.2.3/datatables.min.js"></script>
+        
+    <script src="../../javascript/allies/alliedRoster.js"></script>
 </body>
 
 </html>

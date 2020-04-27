@@ -7,10 +7,6 @@
       -ms-flex-align: center;
           align-items: center;
   font-weight: bolder;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
 }
 
 .raf {
